@@ -1,0 +1,26 @@
+name: Daily Automation
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: daily-automation
+  cancel-in-progress: false
+
+env:
+  NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  CHARACTER_ID: ${{ secrets.CHARACTER_ID }}
+  NOTION_PARENT_PAGE_ID: ${{ secrets.NOTION_PARENT_PAGE_ID }}
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - run: python -m tools.daily_automation --character-id $CHARACTER_ID

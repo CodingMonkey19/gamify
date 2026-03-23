@@ -46,6 +46,7 @@ CHECKIN_RECOVERY_PRICE = 50   # coins to buy back a missed check-in
 # Financial
 GOLD_CONVERSION_RATE = 10
 BUDGET_BREACH_XP_PENALTY = -50
+WIS_XP_PER_GOLD = 5
 
 # Fitness
 RPE_XP_WEIGHT = True
@@ -60,6 +61,7 @@ NUTRITION_STREAK_MULTIPLIER = 1.15
 LOOT_WEIGHTS = {"Common": 70, "Rare": 20, "Epic": 8, "Legendary": 2}
 LOOT_COST = 100
 PITY_TIMER_THRESHOLD = 50
+LOOT_REWARDS = {"Common": 25, "Rare": 75, "Epic": 200, "Legendary": 1000}
 
 # Task/Brain Dump Difficulty Rewards
 DIFFICULTY_REWARDS = {
@@ -76,6 +78,23 @@ DEFAULT_BAD_HABIT_HP = -10
 OPENAI_MODEL = "gpt-4o-mini"
 OPENAI_MONTHLY_COST_CAP_USD = 1.00
 OPENAI_MAX_TOKENS = 1500
+
+# Quest Difficulty Rewards
+QUEST_DIFFICULTY_REWARDS = {
+    "Easy":   {"xp": 25,  "gold": 5},
+    "Medium": {"xp": 50,  "gold": 10},
+    "Hard":   {"xp": 100, "gold": 25},
+    "Epic":   {"xp": 200, "gold": 50},
+}
+
+# Class-to-Stat Mapping
+CLASS_STAT_MAP = {
+    "Warrior": "STR",
+    "Mage": "INT",
+    "Rogue": "CHA",
+    "Paladin": "VIT",
+    "Ranger": "WIS",
+}
 
 # Ranks
 RANK_THRESHOLDS = {

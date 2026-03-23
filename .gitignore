@@ -1,1 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+dist/
+*.egg-info/
 
+# Environment
+.env
+.env.*
+
+# Credentials
+credentials.json
+token.json
+
+# Temporary files
+.tmp/
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated assets (can be regenerated)
+assets/charts/
+
+# Playwright
+.playwright-cli/
+
+# Screenshots
+*.png
+!assets/frames/*.png

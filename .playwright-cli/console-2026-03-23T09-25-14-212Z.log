@@ -1,0 +1,44 @@
+Total messages: 20 (Errors: 5, Warnings: 3)
+
+[INFO] Resource Sentinel initialized... @ https://www.notion.so/32bdcd9e48f880fc8f38f3155f5c501e:0
+[WARNING]   WARN  [Statsig] Creating multiple Statsig clients with the same SDK key can lead to unexpected behavior. Multi-instance support requires different SDK keys. @ https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:9
+[INFO] 2026-03-23T09:24:05.307Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[INFO] 2026-03-23T09:24:05.389Z [info] appHelpers: shouldShowError {data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[INFO] 2026-03-23T09:24:05.405Z [info] appHelpers: shouldShowError {data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://www.notion.so/_assets/mainApp-75dc7b833b29203b.js:0
+[INFO] 2026-03-23T09:24:05.552Z [info] PageLoader: loserAborted {data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[INFO] 2026-03-23T09:24:06.003Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[INFO] 2026-03-23T09:24:06.012Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[ERROR] Access to fetch at 'https://app.notion.com/exp/ping' from origin 'https://www.notion.so' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.notion.so/32bdcd9e48f880fc8f38f3155f5c501e:0
+[ERROR] Failed to load resource: net::ERR_FAILED @ https://app.notion.com/exp/ping:0
+[INFO] 2026-03-23T09:24:06.346Z [error] useExpPingPolling: exp_ping_error {error: Object, data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://www.notion.so/_assets/wasm-sqlite-worker-da8f693576feb28c.js:0
+[WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://www.notion.so/_assets/transport-support-e7d414a1cfeb3949.js:1
+[INFO] 2026-03-23T09:24:07.220Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[INFO] 2026-03-23T09:24:07.371Z [info] sqliteSchemaHelpers: attemptFastForwardMigration {data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[INFO] 2026-03-23T09:24:07.400Z [info] sqliteSchemaHelpers: successfulFastForwardMigration {data: Object} @ https://www.notion.so/_assets/app-7969b497f9cb0066.js:1
+[ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.metadata.io/pixel/config/1127.json:0
+[ERROR] Failed to load resource: the server responded with a status of 400 () @ https://www.notion.so/api/v3/search:0
+[ERROR] Failed to load resource: the server responded with a status of 400 () @ https://www.notion.so/api/v3/search:0

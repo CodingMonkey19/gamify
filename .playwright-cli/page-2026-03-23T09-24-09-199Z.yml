@@ -1,0 +1,203 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e9]:
+          - text: Skip to content
+          - img [ref=e10]
+      - generic [ref=e12]:
+        - banner [ref=e13]:
+          - generic [ref=e14]:
+            - text: Anyone with a Notion account can edit this page.
+            - button "Sign up or login to edit" [ref=e15] [cursor=pointer]
+          - generic [ref=e18]:
+            - button "Gamify" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: Gamify
+            - button "Comments" [ref=e25] [cursor=pointer]:
+              - img [ref=e26]
+            - button "Duplicate page" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+            - button "More actions" [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+        - main [ref=e37]:
+          - group [disabled] [ref=e40]:
+            - generic [ref=e42]:
+              - heading "Gamify" [level=1] [ref=e56]
+              - generic [ref=e58]:
+                - link "Character" [disabled] [ref=e61] [cursor=pointer]:
+                  - /url: /f814ec578879482b81cbe68104d252c8?v=83ef336af9764879bbfc43a593fc0448&pvs=25
+                  - generic [ref=e64]:
+                    - img [ref=e67]
+                    - generic [ref=e70]: Character
+                - link "Activity Log" [disabled] [ref=e73] [cursor=pointer]:
+                  - /url: /caa7198ee6c04d6a948b89b4cd0eb06f?v=26efc4a2ab5a4467a9dc0dfcf42d8218&pvs=25
+                  - generic [ref=e76]:
+                    - img [ref=e79]
+                    - generic [ref=e82]: Activity Log
+                - link "Good Habit" [disabled] [ref=e85] [cursor=pointer]:
+                  - /url: /5dc9eb375e0b4537bae5b7a948251cdc?v=a33602153bff4ae0888f778aba99c29f&pvs=25
+                  - generic [ref=e88]:
+                    - img [ref=e91]
+                    - generic [ref=e94]: Good Habit
+                - link "Bad Habit" [disabled] [ref=e97] [cursor=pointer]:
+                  - /url: /f2d3667ccd5d46d3a73b42db195db1b4?v=0b7ebf5fdd584ab1921bc842e6e79405&pvs=25
+                  - generic [ref=e100]:
+                    - img [ref=e103]
+                    - generic [ref=e106]: Bad Habit
+                - link "Skill/Area" [disabled] [ref=e109] [cursor=pointer]:
+                  - /url: /2436f9560597485cbd6807d5236fa559?v=375df3267e1042aa877e66bca3c0af9b&pvs=25
+                  - generic [ref=e112]:
+                    - img [ref=e115]
+                    - generic [ref=e118]: Skill/Area
+                - link "Streak Tracker" [disabled] [ref=e121] [cursor=pointer]:
+                  - /url: /2da610df06714259a8bb905c396fb3d0?v=a18da65ae0d842a4b4113c5a92385741&pvs=25
+                  - generic [ref=e124]:
+                    - img [ref=e127]
+                    - generic [ref=e130]: Streak Tracker
+                - link "To-do Difficulty" [disabled] [ref=e133] [cursor=pointer]:
+                  - /url: /17e25012291f49f7b98b00f73d1c5df0?v=67efd492fa0745daa63a46c70484bcc5&pvs=25
+                  - generic [ref=e136]:
+                    - img [ref=e139]
+                    - generic [ref=e142]: To-do Difficulty
+                - link "Market" [disabled] [ref=e145] [cursor=pointer]:
+                  - /url: /b9b1a4929e3c45a689f69d661b4832e9?v=08533888c832453292a7325b075ffdb8&pvs=25
+                  - generic [ref=e148]:
+                    - img [ref=e151]
+                    - generic [ref=e154]: Market
+                - link "Goal" [disabled] [ref=e157] [cursor=pointer]:
+                  - /url: /6a3feacfe6db49c6b5922f31b79c283b?v=1e2bab353f72431e9c8b5984759b30b1&pvs=25
+                  - generic [ref=e160]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: Goal
+                - link "Brain Dump" [disabled] [ref=e169] [cursor=pointer]:
+                  - /url: /172c204ac0b643daaa5a2240aca72fef?v=3902e66f45e34a32aab6e6750252baa3&pvs=25
+                  - generic [ref=e172]:
+                    - img [ref=e175]
+                    - generic [ref=e178]: Brain Dump
+                - link "My Cart" [disabled] [ref=e181] [cursor=pointer]:
+                  - /url: /5a205b97a30342d086462d6447b21b90?v=40065d6c6b514d72aa6ede129309d367&pvs=25
+                  - generic [ref=e184]:
+                    - img [ref=e187]
+                    - generic [ref=e190]: My Cart
+                - link "Hotel" [disabled] [ref=e193] [cursor=pointer]:
+                  - /url: /c52b74eb26f54cdda6fa9cbb1cbfade6?v=13acc38b8e1e4bd6a46340eef7b2a4f8&pvs=25
+                  - generic [ref=e196]:
+                    - img [ref=e199]
+                    - generic [ref=e202]: Hotel
+                - link "Black Market" [disabled] [ref=e205] [cursor=pointer]:
+                  - /url: /ca890deb3e4d4c50bdda171cd16426c8?v=8574c084ab034c5685776d141687b121&pvs=25
+                  - generic [ref=e208]:
+                    - img [ref=e211]
+                    - generic [ref=e214]: Black Market
+                - link "Overdraft Penalty" [disabled] [ref=e217] [cursor=pointer]:
+                  - /url: /acecdd60218f418bbc112a759e21194c?v=e01f12a26f4647dab0c716c08188f14b&pvs=25
+                  - generic [ref=e220]:
+                    - img [ref=e223]
+                    - generic [ref=e226]: Overdraft Penalty
+                - link "Level Setting" [disabled] [ref=e229] [cursor=pointer]:
+                  - /url: /af66377ea54741398c20021fe0115066?v=04ad7967014f469dafb8b83cb3ad8d68&pvs=25
+                  - generic [ref=e232]:
+                    - img [ref=e235]
+                    - generic [ref=e238]: Level Setting
+                - link "Settings" [disabled] [ref=e241] [cursor=pointer]:
+                  - /url: /49bc6e3dd39d45f4968f756f779ed819?v=ac9a839cf4bd4f8299ecd22c1c7e6d2e&pvs=25
+                  - generic [ref=e244]:
+                    - img [ref=e247]
+                    - generic [ref=e250]: Settings
+                - link "Quests" [disabled] [ref=e253] [cursor=pointer]:
+                  - /url: /1eba33ab68784e55b07acb551d3af2cd?v=a695880c18704c5a9a988918d6cee146&pvs=25
+                  - generic [ref=e256]:
+                    - img [ref=e259]
+                    - generic [ref=e262]: Quests
+                - link "Daily Journal" [disabled] [ref=e265] [cursor=pointer]:
+                  - /url: /6f03d04f4afd47978e4a911991b27bc4?v=2162170685f44d3abc4e291d2955172e&pvs=25
+                  - generic [ref=e268]:
+                    - img [ref=e271]
+                    - generic [ref=e274]: Daily Journal
+                - link "Mood" [disabled] [ref=e277] [cursor=pointer]:
+                  - /url: /1aa751a1f53745edb43421be81a21a20?v=ddda291556f1444b995546ca436467b3&pvs=25
+                  - generic [ref=e280]:
+                    - img [ref=e283]
+                    - generic [ref=e286]: Mood
+                - link "Onboarding Identity" [disabled] [ref=e289] [cursor=pointer]:
+                  - /url: /79bc2de78e9446138d649b52d82523e5?v=25bd123e15c24440ba3426870762b553&pvs=25
+                  - generic [ref=e292]:
+                    - img [ref=e295]
+                    - generic [ref=e298]: Onboarding Identity
+                - link "Vision Board Items" [disabled] [ref=e301] [cursor=pointer]:
+                  - /url: /3000ccc42e7641d9b4be43107dca120b?v=2f350b0dfb424b999b501e438b7a4ab6&pvs=25
+                  - generic [ref=e304]:
+                    - img [ref=e307]
+                    - generic [ref=e310]: Vision Board Items
+                - link "Budget Categories" [disabled] [ref=e313] [cursor=pointer]:
+                  - /url: /604af9b348a84a8abd2302cb8ca2cca7?v=b654556e309e42818112e23ac4f54715&pvs=25
+                  - generic [ref=e316]:
+                    - img [ref=e319]
+                    - generic [ref=e322]: Budget Categories
+                - link "Expense Log" [disabled] [ref=e325] [cursor=pointer]:
+                  - /url: /b39eb37e6bc84d0a909f0675ba663558?v=3a219b1461284ef7877c67eb0d3340f1&pvs=25
+                  - generic [ref=e328]:
+                    - img [ref=e331]
+                    - generic [ref=e334]: Expense Log
+                - link "Treasury" [disabled] [ref=e337] [cursor=pointer]:
+                  - /url: /c27a588d846a49fe95b7e14f22d5385d?v=5b561f62ebc94812b68237f60aa13be0&pvs=25
+                  - generic [ref=e340]:
+                    - img [ref=e343]
+                    - generic [ref=e346]: Treasury
+                - link "Exercise Dictionary" [disabled] [ref=e349] [cursor=pointer]:
+                  - /url: /f4d3d51a1de54bbbad8e8a9a19a23ad9?v=b6483baac1e148ac9a0f4d16fd1d746d&pvs=25
+                  - generic [ref=e352]:
+                    - img [ref=e355]
+                    - generic [ref=e358]: Exercise Dictionary
+                - link "Workout Sessions" [disabled] [ref=e361] [cursor=pointer]:
+                  - /url: /296e7994b7a746128041ab7e55df3b53?v=9f0237a0a1e348bd9c7356b28872d0b0&pvs=25
+                  - generic [ref=e364]:
+                    - img [ref=e367]
+                    - generic [ref=e370]: Workout Sessions
+                - link "Set Log" [disabled] [ref=e373] [cursor=pointer]:
+                  - /url: /f0a5b85c50e64c2292a017588975018c?v=6cb63e3d80824340beaf79c48980d472&pvs=25
+                  - generic [ref=e376]:
+                    - img [ref=e379]
+                    - generic [ref=e382]: Set Log
+                - link "Meal Log" [disabled] [ref=e385] [cursor=pointer]:
+                  - /url: /e58a65fd93b24afd97f3ad4963d415b5?v=42b7c4348b984aec91d3a9a04474c2b9&pvs=25
+                  - generic [ref=e388]:
+                    - img [ref=e391]
+                    - generic [ref=e394]: Meal Log
+                - link "Ingredients Library" [disabled] [ref=e397] [cursor=pointer]:
+                  - /url: /84d36dcfc73441b582728f125bfb8d1d?v=43b544536f9f4641a0841bb90cf117c8&pvs=25
+                  - generic [ref=e400]:
+                    - img [ref=e403]
+                    - generic [ref=e406]: Ingredients Library
+                - link "Loot Box Inventory" [disabled] [ref=e409] [cursor=pointer]:
+                  - /url: /fc59c6af448048bab9273d6e24ad30d4?v=707632d603c64b20b0a1535a6deb33b9&pvs=25
+                  - generic [ref=e412]:
+                    - img [ref=e415]
+                    - generic [ref=e418]: Loot Box Inventory
+                - link "Achievements" [disabled] [ref=e421] [cursor=pointer]:
+                  - /url: /f94d913d00a24a3c9c42245b4f1f4f5c?v=c542cb93609d4bb18c52571a6ea3ba1c&pvs=25
+                  - generic [ref=e424]:
+                    - img [ref=e427]
+                    - generic [ref=e430]: Achievements
+                - link "Player Achievements" [disabled] [ref=e433] [cursor=pointer]:
+                  - /url: /4a39b47fa96546cba19810e7bfc9b327?v=12a952fc2fb548d597de31d18d1d7d75&pvs=25
+                  - generic [ref=e436]:
+                    - img [ref=e439]
+                    - generic [ref=e442]: Player Achievements
+                - link "Daily Snapshots" [disabled] [ref=e445] [cursor=pointer]:
+                  - /url: /10168a1ee30c4907887165519cec7abe?v=1166190f0b324d0783e93d85ce375d29&pvs=25
+                  - generic [ref=e448]:
+                    - img [ref=e451]
+                    - generic [ref=e454]: Daily Snapshots
+                - link "Daily Dashboard" [disabled] [ref=e461] [cursor=pointer]:
+                  - /url: /Daily-Dashboard-32cdcd9e48f8819e90a0ee1351fce389?pvs=25
+                  - generic [ref=e464]:
+                    - img [ref=e467]:
+                      - img [ref=e468]
+                    - generic [ref=e472]: Daily Dashboard
+        - region [ref=e474]
+    - status [ref=e475]
+    - alert [ref=e476]
+  - iframe [ref=e477]:
+    

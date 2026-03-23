@@ -93,6 +93,88 @@ def mock_loot_result():
 
 
 @pytest.fixture
+def mock_character_page():
+    """Full Notion page response for a character (as returned by pages.retrieve)."""
+    return {
+        "id": "char-001",
+        "url": "https://notion.so/char-001",
+        "properties": {
+            "Name": {"title": [{"plain_text": "TestHero"}]},
+            "Player Level": {"number": 1},
+            "Current Rank": {"select": {"name": "Peasant"}},
+            "Current HP": {"number": 1000},
+            "Current Coins": {"number": 0},
+            "Gold": {"number": 0},
+            "Avatar URL": {"url": None},
+            "Radar Chart URL": {"url": None},
+            "Class": {"select": {"name": "Warrior"}},
+            "STR XP": {"number": 0},
+            "INT XP": {"number": 0},
+            "WIS XP": {"number": 0},
+            "VIT XP": {"number": 0},
+            "CHA XP": {"number": 0},
+        },
+    }
+
+
+@pytest.fixture
+def mock_habit_rows():
+    """Sample Good Habit DB query results."""
+    return {
+        "results": [
+            {"id": f"habit-{i}", "properties": {"Name": {"title": [{"plain_text": name}]}}}
+            for i, name in enumerate(["Exercise", "Read 30min", "Track Expenses", "Eat Clean", "Social Interaction"])
+        ]
+    }
+
+
+@pytest.fixture
+def mock_bad_habit_rows():
+    """Sample Bad Habit DB query results."""
+    return {
+        "results": [
+            {"id": f"bad-{i}", "properties": {"Name": {"title": [{"plain_text": name}]}}}
+            for i, name in enumerate(["Junk Food", "Doom Scrolling", "Skipping Workout"])
+        ]
+    }
+
+
+@pytest.fixture
+def mock_vision_board_rows():
+    """Sample Vision Board DB query results (8 categories)."""
+    cats = ["Health", "Career", "Finance", "Relationships", "Learning", "Creativity", "Adventure", "Spirituality"]
+    return {
+        "results": [
+            {"id": f"vb-{i}", "properties": {"Category": {"select": {"name": cat}}}}
+            for i, cat in enumerate(cats)
+        ]
+    }
+
+
+@pytest.fixture
+def mock_identity_rows():
+    """Sample Onboarding Identity DB query results."""
+    return {
+        "results": [
+            {"id": "id-001", "properties": {"Type": {"select": {"name": "Strength"}}, "Entry": {"rich_text": [{"plain_text": "Disciplined"}]}}},
+            {"id": "id-002", "properties": {"Type": {"select": {"name": "Weakness"}}, "Entry": {"rich_text": [{"plain_text": "Procrastination"}]}}},
+        ]
+    }
+
+
+@pytest.fixture
+def mock_dashboard_page():
+    """Sample Notion page representing an existing dashboard."""
+    return {
+        "id": "dash-001",
+        "url": "https://notion.so/dash-001",
+        "properties": {
+            "title": {"title": [{"plain_text": "Daily Dashboard"}]},
+        },
+    }
+
+
+@pytest.fixture
 def mock_db_ids():
     """Sample database IDs for Notion queries."""
     return {

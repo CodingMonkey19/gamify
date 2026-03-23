@@ -1,0 +1,383 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e9]:
+          - text: Skip to content
+          - img [ref=e10]
+      - navigation "Sidebar":
+        - generic [ref=e12]:
+          - generic [ref=e400]:
+            - generic [ref=e401]:
+              - button "Mohamed's Notion Close sidebar" [ref=e406] [cursor=pointer]:
+                - generic [ref=e417]: Mohamed's Notion
+                - button "Close sidebar" [ref=e420]:
+                  - img [ref=e421]
+              - generic [ref=e425]:
+                - tablist "Sidebar navigation" [ref=e426]:
+                  - tab "Home" [selected] [ref=e429] [cursor=pointer]:
+                    - img [ref=e431]
+                    - generic [ref=e434]: Home
+                  - tab "Chat" [ref=e436] [cursor=pointer]:
+                    - img [ref=e438]
+                    - generic:
+                      - generic: Chat
+                  - tab "Meetings" [ref=e441] [cursor=pointer]:
+                    - img [ref=e443]
+                    - generic:
+                      - generic: Meetings
+                  - tab "Inbox" [ref=e447] [cursor=pointer]:
+                    - img [ref=e449]
+                    - generic:
+                      - generic: Inbox
+                - button "Search" [ref=e453] [cursor=pointer]:
+                  - img [ref=e454]
+            - tabpanel "Home" [ref=e457]:
+              - generic [ref=e461]:
+                - generic [ref=e462]:
+                  - generic [ref=e465] [cursor=pointer]:
+                    - button "Recents" [expanded] [ref=e466]:
+                      - generic [ref=e467]: Recents
+                      - img [ref=e468]
+                    - tree "Recents" [ref=e471]:
+                      - treeitem "Hotel" [ref=e473]:
+                        - generic [ref=e474]:
+                          - img [ref=e480]
+                          - generic [ref=e483]: Hotel
+                      - treeitem "Market" [ref=e485]:
+                        - generic [ref=e486]:
+                          - img [ref=e492]
+                          - generic [ref=e495]: Market
+                      - treeitem "Brain Dump" [ref=e497]:
+                        - generic [ref=e498]:
+                          - img [ref=e504]
+                          - generic [ref=e507]: Brain Dump
+                      - treeitem "Goal" [ref=e509]:
+                        - generic [ref=e510]:
+                          - img [ref=e516]
+                          - generic [ref=e519]: Goal
+                      - treeitem "Bad Habit" [ref=e521]:
+                        - generic [ref=e522]:
+                          - img [ref=e528]
+                          - generic [ref=e531]: Bad Habit
+                      - treeitem "Good Habit" [ref=e533]:
+                        - generic [ref=e534]:
+                          - img [ref=e540]
+                          - generic [ref=e543]: Good Habit
+                      - treeitem "Gamify" [ref=e545]:
+                        - generic [ref=e546]:
+                          - img "Change page icon" [ref=e552]:
+                            - img [ref=e553]
+                          - generic [ref=e557]: Gamify
+                      - treeitem "Exercise Dictionary" [ref=e559]:
+                        - generic [ref=e560]:
+                          - img [ref=e566]
+                          - generic [ref=e569]: Exercise Dictionary
+                      - treeitem "Character" [ref=e571]:
+                        - generic [ref=e572]:
+                          - img [ref=e578]
+                          - generic [ref=e581]: Character
+                      - treeitem "Area" [ref=e583]:
+                        - generic [ref=e584]:
+                          - img "Change page icon" [ref=e592]
+                          - generic [ref=e594]: Area
+                  - generic [ref=e597] [cursor=pointer]:
+                    - button "Favorites" [expanded] [ref=e598]:
+                      - generic [ref=e599]: Favorites
+                      - img [ref=e600]
+                    - tree "Favorites" [ref=e603]:
+                      - generic [ref=e605]:
+                        - treeitem "Habit Tracker" [ref=e607]:
+                          - generic [ref=e608]:
+                            - img "✔️ Change page icon" [ref=e616]
+                            - generic [ref=e618]: Habit Tracker
+                        - treeitem "My Daily Journal" [ref=e620]:
+                          - generic [ref=e621]:
+                            - img "Change page icon" [ref=e629]
+                            - generic [ref=e631]: My Daily Journal
+                  - generic [ref=e633] [cursor=pointer]:
+                    - button "Agents Beta" [expanded] [ref=e634]:
+                      - generic [ref=e635]:
+                        - text: Agents
+                        - link "Beta" [ref=e639]:
+                          - /url: https://www.notion.com/help/custom-agent
+                          - generic [ref=e640]: Beta
+                      - img [ref=e641]
+                    - list "Agents Beta" [ref=e645]:
+                      - button "New agent" [ref=e646]:
+                        - generic [ref=e647]:
+                          - img [ref=e649]
+                          - generic [ref=e651]: New agent
+                  - generic [ref=e654] [cursor=pointer]:
+                    - button "Shared" [expanded] [ref=e655]:
+                      - generic [ref=e656]: Shared
+                      - img [ref=e657]
+                    - button "Start collaborating" [ref=e660]:
+                      - generic [ref=e661]:
+                        - img [ref=e663]
+                        - generic [ref=e665]: Start collaborating
+                  - generic [ref=e668] [cursor=pointer]:
+                    - button "Private" [expanded] [ref=e669]:
+                      - generic [ref=e670]: Private
+                      - img [ref=e671]
+                    - tree "Private" [ref=e674]:
+                      - generic [ref=e676]:
+                        - treeitem "Gamify" [ref=e678]:
+                          - generic [ref=e679]:
+                            - img "Change page icon" [ref=e685]:
+                              - img [ref=e686]
+                            - generic [ref=e690]: Gamify
+                        - treeitem "Journalling Hub" [ref=e692]:
+                          - generic [ref=e693]:
+                            - img "✍️ Change page icon" [ref=e701]
+                            - generic [ref=e703]: Journalling Hub
+                        - treeitem "Try AI Meeting Notes @June 9, 2025 2:31 PM" [ref=e705]:
+                          - generic [ref=e706]:
+                            - img "Change page icon" [ref=e712]:
+                              - img [ref=e713]
+                            - generic [ref=e717]: Try AI Meeting Notes @June 9, 2025 2:31 PM
+                        - treeitem "Journalling Hub" [ref=e719]:
+                          - generic [ref=e720]:
+                            - img "✍️ Change page icon" [ref=e728]
+                            - generic [ref=e730]: Journalling Hub
+                        - treeitem "LiFE RPG - Gamify your Success" [ref=e732]:
+                          - generic [ref=e733]:
+                            - img "Change page icon" [ref=e741]
+                            - generic [ref=e743]: LiFE RPG - Gamify your Success
+                        - treeitem "LiFE RPG - My Life Is Getting Better" [ref=e745]:
+                          - generic [ref=e746]:
+                            - img "Change page icon" [ref=e754]
+                            - generic [ref=e756]: LiFE RPG - My Life Is Getting Better
+                        - treeitem "LiFE RPG - Gamify your Success" [ref=e758]:
+                          - generic [ref=e759]:
+                            - img "Change page icon" [ref=e767]
+                            - generic [ref=e769]: LiFE RPG - Gamify your Success
+                        - treeitem "My Daily Journal" [ref=e771]:
+                          - generic [ref=e772]:
+                            - img "Change page icon" [ref=e780]
+                            - generic [ref=e782]: My Daily Journal
+                        - treeitem "Life OS Dashboard" [ref=e784]:
+                          - generic [ref=e785]:
+                            - img "Change page icon" [ref=e793]
+                            - generic [ref=e795]: Life OS Dashboard
+                        - treeitem "Notionistic" [ref=e797]:
+                          - generic [ref=e798]:
+                            - img "⭐ Change page icon" [ref=e806]
+                            - generic [ref=e808]: Notionistic
+                    - button "More" [ref=e810]:
+                      - generic [ref=e811]:
+                        - img [ref=e813]
+                        - generic [ref=e815]: More
+                  - generic [ref=e817] [cursor=pointer]:
+                    - button "Notion apps" [expanded] [ref=e818]:
+                      - generic [ref=e819]: Notion apps
+                      - img [ref=e820]
+                    - generic [ref=e824]:
+                      - button "Notion Mail" [ref=e828]:
+                        - generic [ref=e829]:
+                          - img [ref=e831]
+                          - generic [ref=e833]: Notion Mail
+                      - button "Notion Calendar" [ref=e838]:
+                        - generic [ref=e839]:
+                          - img [ref=e841]
+                          - generic [ref=e843]: Notion Calendar
+                      - button "Notion Desktop" [ref=e847]:
+                        - generic [ref=e848]:
+                          - img [ref=e850]
+                          - generic [ref=e852]: Notion Desktop
+                - generic [ref=e854]:
+                  - button "Library" [ref=e856] [cursor=pointer]:
+                    - generic [ref=e857]:
+                      - img [ref=e860]
+                      - generic [ref=e862]: Library
+                  - link "My tasks" [ref=e864] [cursor=pointer]:
+                    - /url: /e8c37f4634964795bc38a77646403e31
+                    - generic [ref=e865]:
+                      - img [ref=e867]
+                      - generic [ref=e870]: My tasks
+                  - button "Marketplace" [ref=e872] [cursor=pointer]:
+                    - generic [ref=e873]:
+                      - img [ref=e875]
+                      - generic [ref=e877]: Marketplace
+                  - button "What’s new, help, contact, more…" [ref=e880] [cursor=pointer]:
+                    - generic [ref=e881]:
+                      - generic [ref=e883]:
+                        - img [ref=e884]
+                        - img "New"
+                      - generic [ref=e887]: Help
+                  - button "Trash" [ref=e891] [cursor=pointer]:
+                    - generic [ref=e892]:
+                      - img [ref=e894]
+                      - generic [ref=e897]: Trash
+            - generic [ref=e902]:
+              - generic [ref=e906]:
+                - generic [ref=e907]: Updated line spacing
+                - generic [ref=e908]:
+                  - text: Your pages now have more space between lines, for a cleaner reading experience.
+                  - link "Learn more" [ref=e909] [cursor=pointer]:
+                    - /url: https://www.notion.com/blog/updating-the-design-of-notion-pages
+              - button [ref=e910] [cursor=pointer]:
+                - img [ref=e911]
+            - generic [ref=e914]:
+              - button "New chat" [ref=e916] [cursor=pointer]:
+                - generic [ref=e917]:
+                  - img [ref=e918]
+                  - generic [ref=e921]:
+                    - text: New chat
+                    - generic [ref=e924]: Ctrl+O
+              - button "New page" [ref=e927] [cursor=pointer]:
+                - img [ref=e928]
+          - separator "Resize with left and right arrow keys" [ref=e85]
+      - generic [ref=e86]:
+        - banner [ref=e87]:
+          - generic [ref=e932]:
+            - generic [ref=e933]:
+              - link "Gamify" [ref=e935] [cursor=pointer]:
+                - /url: /Gamify-32bdcd9e48f880fc8f38f3155f5c501e?pvs=18
+                - generic [ref=e937]: Gamify
+              - img [ref=e939]
+              - button "Hotel" [ref=e941] [cursor=pointer]:
+                - generic [ref=e942]: Hotel
+            - generic [ref=e944]:
+              - button "Share" [ref=e947] [cursor=pointer]:
+                - img [ref=e948]
+                - text: Share
+                - img [ref=e950]
+              - button "Favorite" [ref=e953] [cursor=pointer]:
+                - img [ref=e954]
+              - button "Actions" [ref=e958] [cursor=pointer]:
+                - img [ref=e959]
+        - main [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - generic [ref=e95]:
+                - button "Add icon":
+                  - img
+                  - text: Add icon
+                - button "Add cover":
+                  - img
+                  - text: Add cover
+                - button "Add description":
+                  - img
+                  - text: Add description
+              - textbox [ref=e961]:
+                - /placeholder: Hotel
+            - generic [ref=e101]:
+              - generic [ref=e104]:
+                - tablist [ref=e962]:
+                  - tab "Default view" [selected] [ref=e969] [cursor=pointer]:
+                    - img [ref=e970]
+                    - generic [ref=e972]: Default view
+                - button "Settings" [ref=e978] [cursor=pointer]:
+                  - img [ref=e979]
+              - generic [ref=e112]:
+                - generic [ref=e118]:
+                  - checkbox [ref=e987] [cursor=pointer]
+                  - generic [ref=e990]:
+                    - button "Name" [ref=e995] [cursor=pointer]:
+                      - generic [ref=e996]:
+                        - img [ref=e1002]
+                        - generic [ref=e1004]: Name
+                    - button "Activity Entries" [ref=e1010] [cursor=pointer]:
+                      - generic [ref=e1011]:
+                        - img [ref=e1017]
+                        - generic [ref=e1019]: Activity Entries
+                    - button "Character" [ref=e1025] [cursor=pointer]:
+                      - generic [ref=e1026]:
+                        - img [ref=e1032]
+                        - generic [ref=e1034]: Character
+                    - button "Color Bar" [ref=e1040] [cursor=pointer]:
+                      - generic [ref=e1041]:
+                        - img [ref=e1047]
+                        - generic [ref=e1049]: Color Bar
+                    - button "Details" [ref=e1055] [cursor=pointer]:
+                      - generic [ref=e1056]:
+                        - img [ref=e1062]
+                        - generic [ref=e1064]: Details
+                    - button "HP Recovery" [ref=e1070] [cursor=pointer]:
+                      - generic [ref=e1071]:
+                        - img [ref=e1077]
+                        - generic [ref=e1079]: HP Recovery
+                    - button "Price" [ref=e1085] [cursor=pointer]:
+                      - generic [ref=e1086]:
+                        - img [ref=e1092]
+                        - generic [ref=e1094]: Price
+                    - button "Tier" [ref=e1100] [cursor=pointer]:
+                      - generic [ref=e1101]:
+                        - img [ref=e1107]
+                        - generic [ref=e1109]: Tier
+                    - button "HOTEL CHECK-IN" [ref=e1717] [cursor=pointer]:
+                      - generic [ref=e1718]:
+                        - img [ref=e1724]
+                        - generic [ref=e1726]: HOTEL CHECK-IN
+                  - generic [ref=e1111]:
+                    - button [active] [ref=e1116] [cursor=pointer]:
+                      - img [ref=e1117]
+                    - button [ref=e1120] [cursor=pointer]:
+                      - img [ref=e1122]
+                - generic [ref=e1127]:
+                  - generic [ref=e1131]:
+                    - checkbox [ref=e1138] [cursor=pointer]
+                    - button "50" [ref=e1143] [cursor=pointer]:
+                      - generic [ref=e1144]: "50"
+                    - button "100" [ref=e1147] [cursor=pointer]:
+                      - generic [ref=e1148]: "100"
+                    - button "Budget" [ref=e1151] [cursor=pointer]:
+                      - generic [ref=e1157]: Budget
+                    - button "HOTEL CHECK-IN" [ref=e1732] [cursor=pointer]:
+                      - generic [ref=e1733]: HOTEL CHECK-IN
+                  - generic [ref=e1163]:
+                    - checkbox [ref=e1170] [cursor=pointer]
+                    - button "150" [ref=e1175] [cursor=pointer]:
+                      - generic [ref=e1176]: "150"
+                    - button "200" [ref=e1179] [cursor=pointer]:
+                      - generic [ref=e1180]: "200"
+                    - button "Ordinary" [ref=e1183] [cursor=pointer]:
+                      - generic [ref=e1189]: Ordinary
+                    - button "HOTEL CHECK-IN" [ref=e1738] [cursor=pointer]:
+                      - generic [ref=e1739]: HOTEL CHECK-IN
+                  - generic [ref=e1195]:
+                    - checkbox [ref=e1202] [cursor=pointer]
+                    - button "500" [ref=e1207] [cursor=pointer]:
+                      - generic [ref=e1208]: "500"
+                    - button "300" [ref=e1211] [cursor=pointer]:
+                      - generic [ref=e1212]: "300"
+                    - button "Premium" [ref=e1215] [cursor=pointer]:
+                      - generic [ref=e1221]: Premium
+                    - button "HOTEL CHECK-IN" [ref=e1744] [cursor=pointer]:
+                      - generic [ref=e1745]: HOTEL CHECK-IN
+                - button "New page" [ref=e1225] [cursor=pointer]:
+                  - generic [ref=e1226]:
+                    - img [ref=e1227]
+                    - text: New page
+        - region [ref=e396]
+      - button "ai" [ref=e1233] [cursor=pointer]:
+        - img "Notion AI face" [ref=e1239]
+    - status [ref=e397]
+    - alert [ref=e398]
+  - generic [ref=e1695]:
+    - generic [ref=e1696] [cursor=pointer]:
+      - generic "Move" [ref=e1697]
+      - generic "Move" [ref=e1699]
+    - generic [ref=e1701] [cursor=pointer]:
+      - generic:
+        - generic:
+          - generic:
+            - generic "Record screen only"
+        - generic:
+          - generic:
+            - generic "Record camera only"
+        - generic:
+          - generic:
+            - generic "Turn off for this site"
+      - generic:
+        - generic [ref=e1702]:
+          - img "Loom" [ref=e1705]
+          - generic "Record a Loom" [ref=e1708]
+        - generic [ref=e1710]: Record a Loom
+  - generic: Default view
+  - generic:
+    - document
+  - iframe [ref=e1711]:
+    

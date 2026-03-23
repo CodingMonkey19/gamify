@@ -1,0 +1,151 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e9]:
+          - text: Skip to content
+          - img [ref=e10]
+      - generic [ref=e12]:
+        - banner [ref=e13]:
+          - generic [ref=e14]:
+            - text: Anyone with a Notion account can edit this page.
+            - button "Sign up or login to edit" [ref=e15] [cursor=pointer]
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - link "Gamify" [ref=e21] [cursor=pointer]:
+                - /url: /Gamify-32bdcd9e48f880fc8f38f3155f5c501e?pvs=18
+                - generic [ref=e23]: Gamify
+              - img [ref=e25]
+              - button "Good Habit" [ref=e27] [cursor=pointer]:
+                - generic [ref=e28]: Good Habit
+            - button "Comments" [ref=e32] [cursor=pointer]:
+              - img [ref=e33]
+            - button "More actions" [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+        - main [ref=e40]:
+          - generic [ref=e42]:
+            - heading "Good Habit" [level=1] [ref=e51]
+            - generic [ref=e52]:
+              - generic [ref=e55]:
+                - tablist [ref=e56]:
+                  - tab "Default view" [selected] [ref=e61] [cursor=pointer]:
+                    - img [ref=e62]
+                    - generic [ref=e64]: Default view
+                - generic [ref=e66]:
+                  - button "Filter" [ref=e70] [cursor=pointer]:
+                    - img [ref=e71]
+                  - button "Sort" [ref=e76] [cursor=pointer]:
+                    - img [ref=e77]
+                  - button "Search" [ref=e80] [cursor=pointer]:
+                    - img [ref=e81]
+              - generic [ref=e89]:
+                - generic [ref=e96]:
+                  - button "Name" [disabled] [ref=e100]:
+                    - generic [ref=e101]:
+                      - img [ref=e107]
+                      - generic [ref=e109]: Name
+                  - button "Active" [disabled] [ref=e113]:
+                    - generic [ref=e114]:
+                      - img [ref=e120]
+                      - generic [ref=e122]: Active
+                  - button "Activity Entries" [disabled] [ref=e126]:
+                    - generic [ref=e127]:
+                      - img [ref=e133]
+                      - generic [ref=e135]: Activity Entries
+                  - button "Character" [disabled] [ref=e139]:
+                    - generic [ref=e140]:
+                      - img [ref=e146]
+                      - generic [ref=e148]: Character
+                  - button "Check-in Status" [disabled] [ref=e152]:
+                    - generic [ref=e153]:
+                      - img [ref=e159]
+                      - generic [ref=e161]: Check-in Status
+                  - button "Current Streak" [disabled] [ref=e165]:
+                    - generic [ref=e166]:
+                      - img [ref=e172]
+                      - generic [ref=e174]: Current Streak
+                  - button "Domain" [disabled] [ref=e178]:
+                    - generic [ref=e179]:
+                      - img [ref=e185]
+                      - generic [ref=e187]: Domain
+                  - button "EXP Earn" [disabled] [ref=e191]:
+                    - generic [ref=e192]:
+                      - img [ref=e198]
+                      - generic [ref=e200]: EXP Earn
+                  - button "Entries Count" [disabled] [ref=e204]:
+                    - generic [ref=e205]:
+                      - img [ref=e211]
+                      - generic [ref=e213]: Entries Count
+                  - button "Frequency" [disabled] [ref=e217]:
+                    - generic [ref=e218]:
+                      - img [ref=e224]
+                      - generic [ref=e226]: Frequency
+                  - button "Heat Map" [disabled] [ref=e230]:
+                    - generic [ref=e231]:
+                      - img [ref=e237]
+                      - generic [ref=e239]: Heat Map
+                  - button "Stat" [disabled] [ref=e243]:
+                    - generic [ref=e244]:
+                      - img [ref=e250]
+                      - generic [ref=e252]: Stat
+                  - button "Streak Tracker" [disabled] [ref=e256]:
+                    - generic [ref=e257]:
+                      - img [ref=e263]
+                      - generic [ref=e265]: Streak Tracker
+                  - button "XP Reward" [disabled] [ref=e269]:
+                    - generic [ref=e270]:
+                      - img [ref=e276]
+                      - generic [ref=e278]: XP Reward
+                - generic [ref=e281]:
+                  - generic [ref=e285]:
+                    - generic [ref=e289]:
+                      - img [ref=e292]:
+                        - img [ref=e293]
+                      - generic [ref=e295]: Eat Clean
+                    - generic [ref=e300]:
+                      - img [ref=e302]
+                      - checkbox [checked] [disabled]
+                    - generic [ref=e315]: Ready
+                  - generic [ref=e329]:
+                    - generic [ref=e333]:
+                      - img [ref=e336]:
+                        - img [ref=e337]
+                      - generic [ref=e339]: Social Interaction
+                    - generic [ref=e344]:
+                      - img [ref=e346]
+                      - checkbox [checked] [disabled]
+                    - generic [ref=e359]: Ready
+                  - generic [ref=e373]:
+                    - generic [ref=e377]:
+                      - img [ref=e380]:
+                        - img [ref=e381]
+                      - generic [ref=e383]: Track Expenses
+                    - generic [ref=e388]:
+                      - img [ref=e390]
+                      - checkbox [checked] [disabled]
+                    - generic [ref=e403]: Ready
+                  - generic [ref=e417]:
+                    - generic [ref=e421]:
+                      - img [ref=e424]:
+                        - img [ref=e425]
+                      - generic [ref=e427]: Exercise
+                    - generic [ref=e432]:
+                      - img [ref=e434]
+                      - checkbox [checked] [disabled]
+                    - generic [ref=e447]: Ready
+                  - generic [ref=e461]:
+                    - generic [ref=e465]:
+                      - img [ref=e468]:
+                        - img [ref=e469]
+                      - generic [ref=e471]: Read 30 Minutes
+                    - generic [ref=e476]:
+                      - img [ref=e478]
+                      - checkbox [checked] [disabled]
+                    - generic [ref=e491]: Ready
+        - region [ref=e502]
+    - status [ref=e503]
+    - alert [ref=e504]
+  - generic: Default view
+  - iframe [ref=e505]:
+    

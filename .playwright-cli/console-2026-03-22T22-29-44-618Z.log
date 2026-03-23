@@ -1,0 +1,421 @@
+[     549ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/initialize?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218585163&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&se=1:0
+[     552ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218585165&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[     896ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218585500&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=40&gz=1:0
+[    1188ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://www.notion.so/_assets/wasm-sqlite-worker-da8f693576feb28c.js:0
+[    2148ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/initialize?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218586499&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&se=1:0
+[    2149ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218586500&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[    2149ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218586523&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=40&gz=1:0
+[    3221ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://connect.facebook.net/en_US/fbevents.js:0
+[    3529ms] [ERROR] Access to fetch at 'https://app.notion.com/exp/ping' from origin 'https://www.notion.so' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.notion.so/c52b74eb26f54cdda6fa9cbb1cbfade6?v=13acc38b8e1e4bd6a46340eef7b2a4f8:0
+[    3529ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://app.notion.com/exp/ping:0
+[    3539ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://www.notion.so/_assets/transport-support-e7d414a1cfeb3949.js:1
+[    3872ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/55372-42f2da4d2172a32a.js:84:6225
+    at e (https://www.notion.so/_assets/55372-42f2da4d2172a32a.js:84:6691)
+    at https://www.notion.so/_assets/55372-42f2da4d2172a32a.js:84:6697
+    at oz (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:17:14466)
+    at lU (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:17:43456)
+[    3923ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218588390&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    3924ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218588464&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    3959ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    3959ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    4102ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://o324374.ingest.sentry.io/api/5741876/envelope/?sentry_key=704fe3b1898d4ccda1d05fe1ee79a1f7&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.117.0:0
+[    4200ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/initialize?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218588796&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&se=1:0
+[    4201ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/initialize?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218588796&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&se=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[    4201ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218588797&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[    4202ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218588799&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=40&gz=1:0
+[    4202ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://assets.customer.io/assets/track.js:0
+[    4223ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    4224ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    4224ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    4222ms] [ERROR] Resource Sentinel noted a failed resource load of type script https://assets.customer.io/assets/track.js @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[    4224ms] [WARNING] Customer.io failed to load Error: Failed to load script: https://assets.customer.io/assets/track.js
+    at HTMLScriptElement.<anonymous> (https://www.notion.so/_assets/9496-d9e37940ad049346.js:2:10256)
+    at HTMLScriptElement.r (https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:23116) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[    4490ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218589076&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    4498ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218589078&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    4499ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    4521ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    5628ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218590158&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    5678ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    6138ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218590749&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    6140ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    6519ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218591120&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    6557ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218591122&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    6558ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    6562ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    8153ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218592768&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[    8154ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    8713ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218593328&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[    8713ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218593328&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[    8714ms] [WARNING]   WARN  [Statsig] Failed to flush events. @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[    8715ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[    8715ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218593329&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=40&gz=1:0
+[    8716ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218593329&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=40&gz=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[    8716ms] [WARNING]   WARN  [Statsig] Failed to flush events. @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[    8716ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   10804ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218595221&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=18&gz=1:0
+[   10816ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   11040ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218595654&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[   11040ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218595654&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   11040ms] [WARNING]   WARN  [Statsig] Failed to flush events. @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   11043ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   11077ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218595692&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[   11077ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218595692&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   11078ms] [WARNING]   WARN  [Statsig] Failed to flush events. @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   11080ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   11315ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218595928&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=18&gz=1:0
+[   11322ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   12659ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218597272&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1:0
+[   12659ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218597272&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=102&gz=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   12659ms] [WARNING]   WARN  [Statsig] Failed to flush events. @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   12664ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   13336ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218597948&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=18&gz=1:0
+[   13337ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   17847ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218602460&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=18&gz=1:0
+[   17847ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218602460&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=18&gz=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   17848ms] [WARNING]   WARN  [Statsig] Failed to flush events. @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   17849ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   20559ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218605173&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[   20561ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   21065ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218605678&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[   21065ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   23072ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218607687&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[   23072ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   27586ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218612198&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1:0
+[   27586ms] [ERROR]  ERROR  [Statsig] A networking error occurred during POST request to https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218612198&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=7&gz=1. TypeError: Failed to fetch TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570) @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   27587ms] [WARNING]   WARN  [Statsig] Failed to flush events. @ https://www.notion.so/_assets/51706-1770d9772fbdc756.js:6
+[   27588ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   70557ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218655172&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=3&gz=1:0
+[   70555ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   71070ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218655684&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=3&gz=1:0
+[   71068ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)
+[   73080ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://exp.notion.so/v1/rgstr?k=client-Tgza5wNFa8dVt9BdeUfG6Vkm29bHxX10MhoztTMzLBB&st=javascript-client&sv=3.17.1&t=1774218657695&sid=5c102fac-d37e-467d-a284-ce568ddff5bf&ec=3&gz=1:0
+[   73079ms] TypeError: Failed to fetch
+    at o.CtorContext.o.ApplyContext.reflect (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3040)
+    at chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:1209
+    at Object.apply (chrome-extension://hnmpcagpplmpfojmgmnngilcnanddlhb/rulesets/scripting/scriptlet/ublock-filters.prevent-fetch.js:1:3370)
+    at n (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15586)
+    at window.fetch (chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js:2:15738)
+    at https://www.notion.so/_assets/51706-1770d9772fbdc756.js:7:35023
+    at i.<anonymous> (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:7315)
+    at Generator.next (<anonymous>)
+    at o (https://www.notion.so/_assets/64398-f3fb5209bd82f03c.js:10:4570)

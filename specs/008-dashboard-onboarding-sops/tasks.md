@@ -19,9 +19,9 @@
 
 **Purpose**: Environment configuration and shared utilities for onboarding
 
-- [ ] T001 Add new DB ID environment variables to .env.example: CHARACTER_DB_ID, GOOD_HABIT_DB_ID, BAD_HABIT_DB_ID, VISION_BOARD_DB_ID, ONBOARDING_IDENTITY_DB_ID, JOURNAL_DB_ID, BRAIN_DUMP_DB_ID, QUESTS_DB_ID, DAILY_SNAPSHOTS_DB_ID
-- [ ] T002 [P] Add CHARACTER_CLASSES list ("Warrior", "Mage", "Rogue", "Paladin", "Ranger") and VISION_BOARD_CATEGORIES list and DEFAULT_GOOD_HABITS / DEFAULT_BAD_HABITS dicts to tools/config.py
-- [ ] T003 [P] Add mock fixtures for onboarding to tests/conftest.py: mock_character_page, mock_habit_rows, mock_vision_board_rows, mock_identity_rows, mock_dashboard_page
+- [X] T001 Add new DB ID environment variables to .env.example: CHARACTER_DB_ID, GOOD_HABIT_DB_ID, BAD_HABIT_DB_ID, VISION_BOARD_DB_ID, ONBOARDING_IDENTITY_DB_ID, JOURNAL_DB_ID, BRAIN_DUMP_DB_ID, QUESTS_DB_ID, DAILY_SNAPSHOTS_DB_ID
+- [X] T002 [P] Add CHARACTER_CLASSES list ("Warrior", "Mage", "Rogue", "Paladin", "Ranger") and VISION_BOARD_CATEGORIES list and DEFAULT_GOOD_HABITS / DEFAULT_BAD_HABITS dicts to tools/config.py
+- [X] T003 [P] Add mock fixtures for onboarding to tests/conftest.py: mock_character_page, mock_habit_rows, mock_vision_board_rows, mock_identity_rows, mock_dashboard_page
 
 ---
 

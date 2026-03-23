@@ -87,6 +87,31 @@ QUEST_DIFFICULTY_REWARDS = {
     "Epic":   {"xp": 200, "gold": 50},
 }
 
+# Character Classes
+CHARACTER_CLASSES = ["Warrior", "Mage", "Rogue", "Paladin", "Ranger"]
+
+# Vision Board Categories
+VISION_BOARD_CATEGORIES = [
+    "Health", "Career", "Finance", "Relationships",
+    "Learning", "Creativity", "Adventure", "Spirituality",
+]
+
+# Default Good Habits (name → stat)
+DEFAULT_GOOD_HABITS = {
+    "Exercise": "STR",
+    "Read 30min": "INT",
+    "Track Expenses": "WIS",
+    "Eat Clean": "VIT",
+    "Social Interaction": "CHA",
+}
+
+# Default Bad Habits (name → HP penalty)
+DEFAULT_BAD_HABITS = {
+    "Junk Food": -10,
+    "Doom Scrolling": -10,
+    "Skipping Workout": -10,
+}
+
 # Class-to-Stat Mapping
 CLASS_STAT_MAP = {
     "Warrior": "STR",

@@ -1,0 +1,552 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e9]:
+          - text: Skip to content
+          - img [ref=e10]
+      - navigation "Sidebar":
+        - generic [ref=e12]:
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - button "Mohamed's Notion Close sidebar" [ref=e21] [cursor=pointer]:
+                - generic [ref=e32]: Mohamed's Notion
+                - button "Close sidebar" [ref=e35]:
+                  - img [ref=e36]
+              - generic [ref=e40]:
+                - tablist "Sidebar navigation" [ref=e41]:
+                  - tab "Home" [selected] [ref=e44] [cursor=pointer]:
+                    - img [ref=e46]
+                    - generic [ref=e49]: Home
+                  - tab "Chat" [ref=e51] [cursor=pointer]:
+                    - img [ref=e53]
+                    - generic:
+                      - generic: Chat
+                  - tab "Meetings" [ref=e56] [cursor=pointer]:
+                    - img [ref=e58]
+                    - generic:
+                      - generic: Meetings
+                  - tab "Inbox" [ref=e62] [cursor=pointer]:
+                    - img [ref=e64]
+                    - generic:
+                      - generic: Inbox
+                - button "Search" [ref=e68] [cursor=pointer]:
+                  - img [ref=e69]
+            - tabpanel "Home" [ref=e72]:
+              - generic [ref=e76]:
+                - generic [ref=e77]:
+                  - generic [ref=e80] [cursor=pointer]:
+                    - button "Recents" [expanded] [ref=e81]:
+                      - generic [ref=e82]: Recents
+                      - img [ref=e83]
+                    - tree "Recents" [ref=e86]:
+                      - treeitem "Good Habit" [ref=e88]:
+                        - generic [ref=e89]:
+                          - img [ref=e95]
+                          - generic [ref=e98]: Good Habit
+                  - generic [ref=e101] [cursor=pointer]:
+                    - button "Favorites" [expanded] [ref=e102]:
+                      - generic [ref=e103]: Favorites
+                      - img [ref=e104]
+                    - tree "Favorites" [ref=e107]:
+                      - generic [ref=e109]:
+                        - treeitem "Habit Tracker" [ref=e111]:
+                          - generic [ref=e112]:
+                            - img "✔️ Change page icon" [ref=e120]
+                            - generic [ref=e122]: Habit Tracker
+                        - treeitem "My Daily Journal" [ref=e124]:
+                          - generic [ref=e125]:
+                            - img "Change page icon" [ref=e133]
+                            - generic [ref=e135]: My Daily Journal
+                  - generic [ref=e991] [cursor=pointer]:
+                    - button "Agents Beta" [expanded] [ref=e992]:
+                      - generic [ref=e993]:
+                        - text: Agents
+                        - link "Beta" [ref=e997]:
+                          - /url: https://www.notion.com/help/custom-agent
+                          - generic [ref=e998]: Beta
+                      - img [ref=e999]
+                    - list "Agents Beta" [ref=e1003]:
+                      - button "New agent" [ref=e1004]:
+                        - generic [ref=e1005]:
+                          - img [ref=e1007]
+                          - generic [ref=e1009]: New agent
+                  - generic [ref=e158] [cursor=pointer]:
+                    - button "Shared" [expanded] [ref=e159]:
+                      - generic [ref=e160]: Shared
+                      - img [ref=e161]
+                    - button "Start collaborating" [ref=e1010]:
+                      - generic [ref=e1011]:
+                        - img [ref=e1013]
+                        - generic [ref=e1015]: Start collaborating
+                  - generic [ref=e166] [cursor=pointer]:
+                    - button "Private" [expanded] [ref=e167]:
+                      - generic [ref=e168]: Private
+                      - img [ref=e169]
+                    - tree "Private" [ref=e172]:
+                      - generic [ref=e174]:
+                        - treeitem "Gamify" [ref=e176]:
+                          - generic [ref=e177]:
+                            - img "Change page icon" [ref=e183]:
+                              - img [ref=e184]
+                            - generic [ref=e188]: Gamify
+                        - treeitem "Journalling Hub" [ref=e190]:
+                          - generic [ref=e191]:
+                            - img "✍️ Change page icon" [ref=e199]
+                            - generic [ref=e201]: Journalling Hub
+                        - treeitem "Try AI Meeting Notes @June 9, 2025 2:31 PM" [ref=e203]:
+                          - generic [ref=e204]:
+                            - img "Change page icon" [ref=e210]:
+                              - img [ref=e211]
+                            - generic [ref=e215]: Try AI Meeting Notes @June 9, 2025 2:31 PM
+                        - treeitem "Journalling Hub" [ref=e217]:
+                          - generic [ref=e218]:
+                            - img "✍️ Change page icon" [ref=e226]
+                            - generic [ref=e228]: Journalling Hub
+                        - treeitem "LiFE RPG - Gamify your Success" [ref=e230]:
+                          - generic [ref=e231]:
+                            - img "Change page icon" [ref=e239]
+                            - generic [ref=e241]: LiFE RPG - Gamify your Success
+                        - treeitem "LiFE RPG - My Life Is Getting Better" [ref=e243]:
+                          - generic [ref=e244]:
+                            - img "Change page icon" [ref=e252]
+                            - generic [ref=e254]: LiFE RPG - My Life Is Getting Better
+                        - treeitem "LiFE RPG - Gamify your Success" [ref=e256]:
+                          - generic [ref=e257]:
+                            - img "Change page icon" [ref=e265]
+                            - generic [ref=e267]: LiFE RPG - Gamify your Success
+                        - treeitem "My Daily Journal" [ref=e269]:
+                          - generic [ref=e270]:
+                            - img "Change page icon" [ref=e278]
+                            - generic [ref=e280]: My Daily Journal
+                        - treeitem "Life OS Dashboard" [ref=e282]:
+                          - generic [ref=e283]:
+                            - img "Change page icon" [ref=e291]
+                            - generic [ref=e293]: Life OS Dashboard
+                        - treeitem "Notionistic" [ref=e295]:
+                          - generic [ref=e296]:
+                            - img "⭐ Change page icon" [ref=e304]
+                            - generic [ref=e306]: Notionistic
+                    - button "More" [ref=e308]:
+                      - generic [ref=e309]:
+                        - img [ref=e311]
+                        - generic [ref=e313]: More
+                  - generic [ref=e1017] [cursor=pointer]:
+                    - button "Notion apps" [expanded] [ref=e1018]:
+                      - generic [ref=e1019]: Notion apps
+                      - img [ref=e1020]
+                    - generic [ref=e1024]:
+                      - button "Notion Mail" [ref=e1028]:
+                        - generic [ref=e1029]:
+                          - img [ref=e1031]
+                          - generic [ref=e1033]: Notion Mail
+                      - button "Notion Calendar" [ref=e1038]:
+                        - generic [ref=e1039]:
+                          - img [ref=e1041]
+                          - generic [ref=e1043]: Notion Calendar
+                      - button "Notion Desktop" [ref=e1047]:
+                        - generic [ref=e1048]:
+                          - img [ref=e1050]
+                          - generic [ref=e1052]: Notion Desktop
+                - generic [ref=e315]:
+                  - button "Library" [ref=e317] [cursor=pointer]:
+                    - generic [ref=e318]:
+                      - img [ref=e321]
+                      - generic [ref=e323]: Library
+                  - link "My tasks" [ref=e325] [cursor=pointer]:
+                    - /url: /e8c37f4634964795bc38a77646403e31
+                    - generic [ref=e326]:
+                      - img [ref=e328]
+                      - generic [ref=e331]: My tasks
+                  - button "Marketplace" [ref=e333] [cursor=pointer]:
+                    - generic [ref=e334]:
+                      - img [ref=e336]
+                      - generic [ref=e338]: Marketplace
+                  - button "What’s new, help, contact, more…" [ref=e341] [cursor=pointer]:
+                    - generic [ref=e342]:
+                      - generic [ref=e344]:
+                        - img [ref=e345]
+                        - img "New"
+                      - generic [ref=e348]: Help
+                  - button "Trash" [ref=e352] [cursor=pointer]:
+                    - generic [ref=e353]:
+                      - img [ref=e355]
+                      - generic [ref=e358]: Trash
+            - generic [ref=e360]:
+              - button "New chat" [ref=e362] [cursor=pointer]:
+                - generic [ref=e363]:
+                  - img [ref=e364]
+                  - generic [ref=e367]:
+                    - text: New chat
+                    - generic [ref=e370]: Ctrl+O
+              - button "New page" [ref=e373] [cursor=pointer]:
+                - img [ref=e374]
+          - separator "Resize with left and right arrow keys" [ref=e379]
+      - generic [ref=e380]:
+        - banner [ref=e381]:
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - link "Gamify" [ref=e387] [cursor=pointer]:
+                - /url: /Gamify-32bdcd9e48f880fc8f38f3155f5c501e?pvs=18
+                - generic [ref=e389]: Gamify
+              - img [ref=e391]
+              - button "Good Habit" [ref=e393] [cursor=pointer]:
+                - generic [ref=e394]: Good Habit
+            - generic [ref=e1054]:
+              - button "Share" [ref=e1057] [cursor=pointer]:
+                - img [ref=e1058]
+                - text: Share
+                - img [ref=e1060]
+              - button "Favorite" [ref=e1063] [cursor=pointer]:
+                - img [ref=e1064]
+              - button "Actions" [ref=e1068] [cursor=pointer]:
+                - img [ref=e1069]
+        - main [ref=e395]:
+          - generic [ref=e397]:
+            - generic [ref=e399]:
+              - generic [ref=e401]:
+                - button "Add icon":
+                  - img
+                  - text: Add icon
+                - button "Add cover":
+                  - img
+                  - text: Add cover
+                - button "Add description":
+                  - img
+                  - text: Add description
+              - textbox [ref=e406]:
+                - /placeholder: Good Habit
+            - generic [ref=e407]:
+              - generic [ref=e410]:
+                - tablist [ref=e411]:
+                  - tab "Default view" [selected] [ref=e418] [cursor=pointer]:
+                    - img [ref=e419]
+                    - generic [ref=e421]: Default view
+                - button "Settings" [ref=e428] [cursor=pointer]:
+                  - img [ref=e429]
+              - generic [ref=e437]:
+                - generic [ref=e443]:
+                  - checkbox [ref=e1071] [cursor=pointer]
+                  - generic [ref=e451]:
+                    - button "Name" [ref=e456] [cursor=pointer]:
+                      - generic [ref=e457]:
+                        - img [ref=e463]
+                        - generic [ref=e465]: Name
+                    - button "Active" [ref=e471] [cursor=pointer]:
+                      - generic [ref=e472]:
+                        - img [ref=e478]
+                        - generic [ref=e480]: Active
+                    - button "Activity Entries" [ref=e486] [cursor=pointer]:
+                      - generic [ref=e487]:
+                        - img [ref=e493]
+                        - generic [ref=e495]: Activity Entries
+                    - button "Character" [ref=e501] [cursor=pointer]:
+                      - generic [ref=e502]:
+                        - img [ref=e508]
+                        - generic [ref=e510]: Character
+                    - button "Check-in Status" [ref=e516] [cursor=pointer]:
+                      - generic [ref=e517]:
+                        - img [ref=e523]
+                        - generic [ref=e525]: Check-in Status
+                    - button "Current Streak" [ref=e531] [cursor=pointer]:
+                      - generic [ref=e532]:
+                        - img [ref=e538]
+                        - generic [ref=e540]: Current Streak
+                    - button "Domain" [ref=e546] [cursor=pointer]:
+                      - generic [ref=e547]:
+                        - img [ref=e553]
+                        - generic [ref=e555]: Domain
+                    - button "EXP Earn" [ref=e561] [cursor=pointer]:
+                      - generic [ref=e562]:
+                        - img [ref=e568]
+                        - generic [ref=e570]: EXP Earn
+                    - button "Entries Count" [ref=e1072] [cursor=pointer]:
+                      - generic [ref=e1073]:
+                        - img [ref=e1079]
+                        - generic [ref=e1081]: Entries Count
+                    - button "Frequency" [ref=e595] [cursor=pointer]:
+                      - generic [ref=e596]:
+                        - img [ref=e602]
+                        - generic [ref=e604]: Frequency
+                    - button "Heat Map" [ref=e610] [cursor=pointer]:
+                      - generic [ref=e611]:
+                        - img [ref=e617]
+                        - generic [ref=e619]: Heat Map
+                    - button "Stat" [ref=e625] [cursor=pointer]:
+                      - generic [ref=e626]:
+                        - img [ref=e632]
+                        - generic [ref=e634]: Stat
+                    - button "Streak Tracker" [ref=e640] [cursor=pointer]:
+                      - generic [ref=e641]:
+                        - img [ref=e647]
+                        - generic [ref=e649]: Streak Tracker
+                    - button "XP Reward" [ref=e655] [cursor=pointer]:
+                      - generic [ref=e656]:
+                        - img [ref=e662]
+                        - generic [ref=e664]: XP Reward
+                  - generic [ref=e666]:
+                    - button [expanded] [ref=e671] [cursor=pointer]:
+                      - img [ref=e672]
+                    - button [ref=e675] [cursor=pointer]:
+                      - img [ref=e677]
+                - generic [ref=e1085]:
+                  - generic [ref=e1089]:
+                    - checkbox [ref=e1096] [cursor=pointer]
+                    - button [ref=e1295] [cursor=pointer]
+                    - button "VIT" [ref=e1298] [cursor=pointer]:
+                      - generic [ref=e1304]: VIT
+                    - button [ref=e1307] [cursor=pointer]
+                    - button "5" [ref=e1310] [cursor=pointer]:
+                      - generic [ref=e1311]: "5"
+                  - generic [ref=e1127]:
+                    - checkbox [ref=e1134] [cursor=pointer]
+                    - button [ref=e1315] [cursor=pointer]
+                    - button "CHA" [ref=e1318] [cursor=pointer]:
+                      - generic [ref=e1324]: CHA
+                    - button [ref=e1327] [cursor=pointer]
+                    - button "5" [ref=e1330] [cursor=pointer]:
+                      - generic [ref=e1331]: "5"
+                  - generic [ref=e1165]:
+                    - checkbox [ref=e1172] [cursor=pointer]
+                    - button [ref=e1335] [cursor=pointer]
+                    - button "WIS" [ref=e1338] [cursor=pointer]:
+                      - generic [ref=e1344]: WIS
+                    - button [ref=e1347] [cursor=pointer]
+                    - button "5" [ref=e1350] [cursor=pointer]:
+                      - generic [ref=e1351]: "5"
+                  - generic [ref=e1203]:
+                    - checkbox [ref=e1210] [cursor=pointer]
+                    - button [ref=e1355] [cursor=pointer]
+                    - button "STR" [ref=e1358] [cursor=pointer]:
+                      - generic [ref=e1364]: STR
+                    - button [ref=e1367] [cursor=pointer]
+                    - button "5" [ref=e1370] [cursor=pointer]:
+                      - generic [ref=e1371]: "5"
+                  - generic [ref=e1241]:
+                    - checkbox [ref=e1248] [cursor=pointer]
+                    - button [ref=e1375] [cursor=pointer]
+                    - button "INT" [ref=e1378] [cursor=pointer]:
+                      - generic [ref=e1384]: INT
+                    - button [ref=e1387] [cursor=pointer]
+                    - button "5" [ref=e1390] [cursor=pointer]:
+                      - generic [ref=e1391]: "5"
+                - button "New page" [ref=e1277] [cursor=pointer]:
+                  - generic [ref=e1278]:
+                    - img [ref=e1279]
+                    - text: New page
+        - region [ref=e971]
+      - button "ai" [ref=e1285] [cursor=pointer]:
+        - img "Notion AI face" [ref=e1291]
+    - dialog [ref=e1673]:
+      - generic [ref=e1674]:
+        - generic [ref=e1675]:
+          - button "Select icon" [ref=e1676] [cursor=pointer]
+          - textbox "Type property name…" [active] [ref=e1679]
+        - generic [ref=e1681]:
+          - grid [ref=e1683]:
+            - generic [ref=e1684]:
+              - generic [ref=e1687]:
+                - img [ref=e1688]
+                - generic [ref=e1691]:
+                  - status [ref=e1692]: Crafting
+                  - progressbar [ref=e1693]
+                  - generic [ref=e1699]: Crafting
+              - row "Loading... Loading... Loading... Loading..." [ref=e1701]:
+                - generic [ref=e1702]:
+                  - progressbar [ref=e1703]
+                  - progressbar [ref=e1704]
+                - generic [ref=e1705]:
+                  - progressbar [ref=e1706]
+                  - progressbar [ref=e1707]
+              - row "Loading... Loading... Loading... Loading..." [ref=e1708]:
+                - generic [ref=e1709]:
+                  - progressbar [ref=e1710]
+                  - progressbar [ref=e1711]
+                - generic [ref=e1712]:
+                  - progressbar [ref=e1713]
+                  - progressbar [ref=e1714]
+            - generic [ref=e1719]:
+              - generic [ref=e1720]: Select type
+              - button "Search types…" [ref=e1722] [cursor=pointer]:
+                - img [ref=e1723]
+            - generic [ref=e1726]:
+              - row "Text Number" [ref=e1727]:
+                - gridcell "Text" [ref=e1729] [cursor=pointer]:
+                  - generic [ref=e1734]:
+                    - generic [ref=e1736]: Text
+                    - button [ref=e1738]:
+                      - img [ref=e1739]
+                - gridcell "Number" [ref=e1743] [cursor=pointer]:
+                  - generic [ref=e1748]:
+                    - generic [ref=e1750]: Number
+                    - button [ref=e1752]:
+                      - img [ref=e1753]
+              - row "Select Multi-select" [ref=e1756]:
+                - gridcell "Select" [ref=e1758] [cursor=pointer]:
+                  - generic [ref=e1763]:
+                    - generic [ref=e1765]: Select
+                    - button [ref=e1767]:
+                      - img [ref=e1768]
+                - gridcell "Multi-select" [ref=e1772] [cursor=pointer]:
+                  - generic [ref=e1777]:
+                    - generic [ref=e1779]: Multi-select
+                    - button [ref=e1781]:
+                      - img [ref=e1782]
+              - row "Status Date" [ref=e1785]:
+                - gridcell "Status" [ref=e1787] [cursor=pointer]:
+                  - generic [ref=e1792]:
+                    - generic [ref=e1794]: Status
+                    - button [ref=e1796]:
+                      - img [ref=e1797]
+                - gridcell "Date" [ref=e1801] [cursor=pointer]:
+                  - generic [ref=e1806]:
+                    - generic [ref=e1808]: Date
+                    - button [ref=e1810]:
+                      - img [ref=e1811]
+              - row "Person Files & media" [ref=e1814]:
+                - gridcell "Person" [ref=e1816] [cursor=pointer]:
+                  - generic [ref=e1821]:
+                    - generic [ref=e1823]: Person
+                    - button [ref=e1825]:
+                      - img [ref=e1826]
+                - gridcell "Files & media" [ref=e1830] [cursor=pointer]:
+                  - generic [ref=e1835]:
+                    - generic [ref=e1837]: Files & media
+                    - button [ref=e1839]:
+                      - img [ref=e1840]
+              - row "Checkbox URL" [ref=e1843]:
+                - gridcell "Checkbox" [ref=e1845] [cursor=pointer]:
+                  - generic [ref=e1850]:
+                    - generic [ref=e1852]: Checkbox
+                    - button [ref=e1854]:
+                      - img [ref=e1855]
+                - gridcell "URL" [ref=e1859] [cursor=pointer]:
+                  - generic [ref=e1864]:
+                    - generic [ref=e1866]: URL
+                    - button [ref=e1868]:
+                      - img [ref=e1869]
+              - row "Phone Email" [ref=e1872]:
+                - gridcell "Phone" [ref=e1874] [cursor=pointer]:
+                  - generic [ref=e1879]:
+                    - generic [ref=e1881]: Phone
+                    - button [ref=e1883]:
+                      - img [ref=e1884]
+                - gridcell "Email" [ref=e1888] [cursor=pointer]:
+                  - generic [ref=e1893]:
+                    - generic [ref=e1895]: Email
+                    - button [ref=e1897]:
+                      - img [ref=e1898]
+            - generic [ref=e1901]:
+              - row "Relation Rollup" [ref=e1903]:
+                - gridcell "Relation" [ref=e1905] [cursor=pointer]:
+                  - generic [ref=e1910]:
+                    - generic [ref=e1912]: Relation
+                    - button [ref=e1914]:
+                      - img [ref=e1915]
+                - gridcell "Rollup" [ref=e1919] [cursor=pointer]:
+                  - generic [ref=e1924]:
+                    - generic [ref=e1926]: Rollup
+                    - button [ref=e1928]:
+                      - img [ref=e1929]
+              - row "Formula Button" [ref=e1932]:
+                - gridcell "Formula" [ref=e1934] [cursor=pointer]:
+                  - generic [ref=e1939]:
+                    - generic [ref=e1941]: Formula
+                    - button [ref=e1943]:
+                      - img [ref=e1944]
+                - gridcell "Button" [ref=e1948] [cursor=pointer]:
+                  - generic [ref=e1953]:
+                    - generic [ref=e1955]: Button
+                    - button [ref=e1957]:
+                      - img [ref=e1958]
+              - row "ID Place" [ref=e1961]:
+                - gridcell "ID" [ref=e1963] [cursor=pointer]:
+                  - generic [ref=e1968]:
+                    - generic [ref=e1970]: ID
+                    - button [ref=e1972]:
+                      - img [ref=e1973]
+                - gridcell "Place" [ref=e1977] [cursor=pointer]:
+                  - generic [ref=e1982]:
+                    - generic [ref=e1984]: Place
+                    - button [ref=e1986]:
+                      - img [ref=e1987]
+            - generic [ref=e1990]:
+              - row "Created time Last edited time" [ref=e1992]:
+                - gridcell "Created time" [ref=e1994] [cursor=pointer]:
+                  - generic [ref=e1999]:
+                    - generic [ref=e2001]: Created time
+                    - button [ref=e2003]:
+                      - img [ref=e2004]
+                - gridcell "Last edited time" [ref=e2008] [cursor=pointer]:
+                  - generic [ref=e2013]:
+                    - generic [ref=e2015]: Last edited time
+                    - button [ref=e2017]:
+                      - img [ref=e2018]
+              - row "Created by Last edited by" [ref=e2021]:
+                - gridcell "Created by" [ref=e2023] [cursor=pointer]:
+                  - generic [ref=e2028]:
+                    - generic [ref=e2030]: Created by
+                    - button [ref=e2032]:
+                      - img [ref=e2033]
+                - gridcell "Last edited by" [ref=e2037] [cursor=pointer]:
+                  - generic [ref=e2042]:
+                    - generic [ref=e2044]: Last edited by
+                    - button [ref=e2046]:
+                      - img [ref=e2047]
+            - generic [ref=e2050]:
+              - row "Google Drive File Figma File" [ref=e2052]:
+                - gridcell "Google Drive File" [ref=e2054] [cursor=pointer]:
+                  - generic [ref=e2055]:
+                    - img [ref=e2057]
+                    - generic [ref=e2061]: Google Drive File
+                - gridcell "Figma File" [ref=e2063] [cursor=pointer]:
+                  - generic [ref=e2064]:
+                    - img [ref=e2066]
+                    - generic [ref=e2069]:
+                      - generic [ref=e2070]: Figma File
+                      - button [ref=e2072]:
+                        - img [ref=e2073]
+              - row "GitHub Pull Requests Zendesk Ticket" [ref=e2079]:
+                - gridcell "GitHub Pull Requests" [ref=e2081] [cursor=pointer]:
+                  - generic [ref=e2082]:
+                    - img [ref=e2084]
+                    - generic [ref=e2087]:
+                      - generic [ref=e2088]: GitHub Pull Requests
+                      - button [ref=e2090]:
+                        - img [ref=e2091]
+                - gridcell "Zendesk Ticket" [ref=e2098] [cursor=pointer]:
+                  - generic [ref=e2099]:
+                    - img [ref=e2101]
+                    - generic [ref=e2104]:
+                      - generic [ref=e2105]: Zendesk Ticket
+                      - button [ref=e2107]:
+                        - img [ref=e2108]
+          - contentinfo
+    - status [ref=e972]
+    - alert [ref=e973]
+  - iframe [ref=e974]:
+    
+  - generic: Default view
+  - generic [ref=e975]:
+    - generic [ref=e976] [cursor=pointer]:
+      - generic "Move" [ref=e977]
+      - generic "Move" [ref=e979]
+    - generic [ref=e981] [cursor=pointer]:
+      - generic:
+        - generic:
+          - generic:
+            - generic "Record screen only"
+        - generic:
+          - generic:
+            - generic "Record camera only"
+        - generic:
+          - generic:
+            - generic "Turn off for this site"
+      - generic:
+        - generic [ref=e982]:
+          - img "Loom" [ref=e985]
+          - generic "Record a Loom" [ref=e988]
+        - generic [ref=e990]: Record a Loom
+  - generic:
+    - document

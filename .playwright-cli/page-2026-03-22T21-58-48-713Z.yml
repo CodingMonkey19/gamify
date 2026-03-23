@@ -1,0 +1,69 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e8]:
+      - link "Skip to content" [ref=e10] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e11]:
+          - text: Skip to content
+          - img [ref=e12]
+      - main [ref=e14]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img "Notion" [ref=e20]
+            - generic [ref=e23]:
+              - generic [ref=e25]:
+                - heading "Your AI workspace." [level=1] [ref=e26]
+                - heading "Log in to your Notion account" [level=2] [ref=e27]
+              - generic [ref=e28]:
+                - generic [ref=e29]:
+                  - generic [ref=e30]:
+                    - generic:
+                      - generic:
+                        - generic: Log in with
+                  - generic [ref=e31]:
+                    - button "Google" [ref=e32] [cursor=pointer]:
+                      - img [ref=e33]
+                      - generic [ref=e39]: Google
+                    - button "Apple" [ref=e40] [cursor=pointer]:
+                      - img [ref=e41]
+                      - generic [ref=e43]: Apple
+                    - button "Microsoft" [ref=e44] [cursor=pointer]:
+                      - img [ref=e45]
+                      - generic [ref=e51]: Microsoft
+                    - button "Passkey" [ref=e52] [cursor=pointer]:
+                      - img [ref=e53]
+                      - generic [ref=e55]: Passkey
+                    - button "SSO" [ref=e56] [cursor=pointer]:
+                      - img [ref=e57]
+                      - generic [ref=e60]: SSO
+                  - generic [ref=e62]:
+                    - generic [ref=e63]:
+                      - generic:
+                        - generic:
+                          - generic: or continue with
+                    - generic [ref=e64]:
+                      - generic [ref=e65]: Email
+                      - textbox "Email" [active] [ref=e67]:
+                        - /placeholder: Enter your email address...
+                      - generic [ref=e68]: Use an organization email to easily collaborate with teammates
+                      - generic:
+                        - textbox
+                      - button "Continue" [ref=e69] [cursor=pointer]:
+                        - generic [ref=e70]: Continue
+                - paragraph [ref=e72]:
+                  - text: By continuing, you acknowledge that you understand and agree to the
+                  - link "Terms & Conditions" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.notion.so/notion/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac
+                  - text: and
+                  - link "Privacy Policy" [ref=e74] [cursor=pointer]:
+                    - /url: https://www.notion.com/trust/privacy-policy
+          - 'button "Language: English (US)" [ref=e77] [cursor=pointer]':
+            - img [ref=e78]
+            - text: "Language: English (US)"
+            - img [ref=e80]
+        - button "Help" [ref=e83] [cursor=pointer]:
+          - img [ref=e84]
+    - status [ref=e87]
+    - alert [ref=e88]
+  - iframe [ref=e89]:
+    

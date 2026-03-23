@@ -1,0 +1,307 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e9]:
+          - text: Skip to content
+          - img [ref=e10]
+      - navigation "Sidebar":
+        - generic [ref=e12]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - progressbar [ref=e16]
+              - progressbar [ref=e17]
+            - progressbar [ref=e18]
+            - progressbar [ref=e19]
+            - progressbar [ref=e20]
+            - progressbar [ref=e21]
+            - progressbar [ref=e22]
+            - generic [ref=e23]:
+              - progressbar [ref=e24]
+              - progressbar [ref=e25]
+            - generic [ref=e26]:
+              - progressbar [ref=e27]
+              - progressbar [ref=e28]
+            - generic [ref=e29]:
+              - progressbar [ref=e30]
+              - progressbar [ref=e31]
+            - generic [ref=e32]:
+              - progressbar [ref=e33]
+              - progressbar [ref=e34]
+            - generic [ref=e35]:
+              - progressbar [ref=e36]
+              - progressbar [ref=e37]
+            - generic [ref=e38]:
+              - progressbar [ref=e39]
+              - progressbar [ref=e40]
+            - generic [ref=e41]:
+              - progressbar [ref=e42]
+              - progressbar [ref=e43]
+            - generic [ref=e44]:
+              - progressbar [ref=e45]
+              - progressbar [ref=e46]
+            - generic [ref=e47]:
+              - progressbar [ref=e48]
+              - progressbar [ref=e49]
+            - generic [ref=e50]:
+              - progressbar [ref=e51]
+              - progressbar [ref=e52]
+            - generic [ref=e53]:
+              - progressbar [ref=e54]
+              - progressbar [ref=e55]
+            - generic [ref=e56]:
+              - progressbar [ref=e57]
+              - progressbar [ref=e58]
+            - generic [ref=e59]:
+              - progressbar [ref=e60]
+              - progressbar [ref=e61]
+            - generic [ref=e62]:
+              - progressbar [ref=e63]
+              - progressbar [ref=e64]
+            - generic [ref=e65]:
+              - progressbar [ref=e66]
+              - progressbar [ref=e67]
+            - generic [ref=e68]:
+              - progressbar [ref=e69]
+              - progressbar [ref=e70]
+            - generic [ref=e71]:
+              - progressbar [ref=e72]
+              - progressbar [ref=e73]
+            - generic [ref=e74]:
+              - progressbar [ref=e75]
+              - progressbar [ref=e76]
+            - generic [ref=e77]:
+              - progressbar [ref=e78]
+              - progressbar [ref=e79]
+            - generic [ref=e80]:
+              - progressbar [ref=e81]
+              - progressbar [ref=e82]
+          - separator "Resize with left and right arrow keys" [ref=e85]
+      - generic [ref=e86]:
+        - banner [ref=e87]
+        - main [ref=e91]:
+          - generic [ref=e93]:
+            - generic [ref=e95]:
+              - generic [ref=e97]:
+                - button "Add icon":
+                  - img
+                  - text: Add icon
+                - button "Add cover":
+                  - img
+                  - text: Add cover
+                - button "Add description":
+                  - img
+                  - text: Add description
+              - textbox [ref=e102]:
+                - /placeholder: Good Habit
+            - generic [ref=e103]:
+              - generic [ref=e106]:
+                - tablist [ref=e107]:
+                  - tab "Default view" [selected] [ref=e114] [cursor=pointer]:
+                    - img [ref=e115]
+                    - generic [ref=e117]: Default view
+                - generic [ref=e119]:
+                  - button "Filter" [ref=e123] [cursor=pointer]:
+                    - img [ref=e124]
+                  - button "Sort" [ref=e129] [cursor=pointer]:
+                    - img [ref=e130]
+                  - button "Search" [ref=e133] [cursor=pointer]:
+                    - img [ref=e134]
+                  - generic [ref=e138]:
+                    - button "New" [ref=e139] [cursor=pointer]
+                    - button "More add options" [ref=e140] [cursor=pointer]:
+                      - img [ref=e141]
+              - generic [ref=e149]:
+                - generic [ref=e155]:
+                  - checkbox [ref=e162] [cursor=pointer]
+                  - generic [ref=e164]:
+                    - button "Name" [ref=e169] [cursor=pointer]:
+                      - generic [ref=e170]:
+                        - img [ref=e176]
+                        - generic [ref=e178]: Name
+                    - button "Active" [ref=e184] [cursor=pointer]:
+                      - generic [ref=e185]:
+                        - img [ref=e191]
+                        - generic [ref=e193]: Active
+                    - button "Activity Entries" [ref=e199] [cursor=pointer]:
+                      - generic [ref=e200]:
+                        - img [ref=e206]
+                        - generic [ref=e208]: Activity Entries
+                    - button "Character" [ref=e214] [cursor=pointer]:
+                      - generic [ref=e215]:
+                        - img [ref=e221]
+                        - generic [ref=e223]: Character
+                    - button "Check-in Status" [ref=e229] [cursor=pointer]:
+                      - generic [ref=e230]:
+                        - img [ref=e236]
+                        - generic [ref=e238]: Check-in Status
+                    - button "Current Streak" [ref=e244] [cursor=pointer]:
+                      - generic [ref=e245]:
+                        - img [ref=e251]
+                        - generic [ref=e253]: Current Streak
+                    - button "Domain" [ref=e259] [cursor=pointer]:
+                      - generic [ref=e260]:
+                        - img [ref=e266]
+                        - generic [ref=e268]: Domain
+                    - button "EXP Earn" [ref=e274] [cursor=pointer]:
+                      - generic [ref=e275]:
+                        - img [ref=e281]
+                        - generic [ref=e283]: EXP Earn
+                    - button "Entries Count" [ref=e289] [cursor=pointer]:
+                      - generic [ref=e290]:
+                        - img [ref=e296]
+                        - generic [ref=e298]: Entries Count
+                    - button "Frequency" [ref=e304] [cursor=pointer]:
+                      - generic [ref=e305]:
+                        - img [ref=e311]
+                        - generic [ref=e313]: Frequency
+                    - button "Heat Map" [ref=e319] [cursor=pointer]:
+                      - generic [ref=e320]:
+                        - img [ref=e326]
+                        - generic [ref=e328]: Heat Map
+                    - button "Stat" [ref=e334] [cursor=pointer]:
+                      - generic [ref=e335]:
+                        - img [ref=e341]
+                        - generic [ref=e343]: Stat
+                    - button "Streak Tracker" [ref=e349] [cursor=pointer]:
+                      - generic [ref=e350]:
+                        - img [ref=e356]
+                        - generic [ref=e358]: Streak Tracker
+                    - button "XP Reward" [ref=e364] [cursor=pointer]:
+                      - generic [ref=e365]:
+                        - img [ref=e371]
+                        - generic [ref=e373]: XP Reward
+                  - generic [ref=e375]:
+                    - button [ref=e380] [cursor=pointer]:
+                      - img [ref=e381]
+                    - button [ref=e384] [cursor=pointer]:
+                      - img [ref=e386]
+                - generic [ref=e391]:
+                  - generic [ref=e395]:
+                    - checkbox [ref=e402] [cursor=pointer]
+                    - button "Eat Clean" [ref=e405] [cursor=pointer]:
+                      - generic [ref=e406]:
+                        - button [ref=e408]:
+                          - img [ref=e409]:
+                            - img [ref=e410]
+                        - generic [ref=e412]: Eat Clean
+                    - button [ref=e415] [cursor=pointer]:
+                      - generic [ref=e417]:
+                        - img [ref=e419]
+                        - checkbox [checked] [ref=e421]
+                    - button [ref=e424] [cursor=pointer]
+                    - button [ref=e427] [cursor=pointer]
+                    - button "Ready" [ref=e430] [cursor=pointer]:
+                      - generic [ref=e433]: Ready
+                    - button [ref=e436] [cursor=pointer]
+                    - button [ref=e439] [cursor=pointer]
+                    - button [ref=e442] [cursor=pointer]
+                  - generic [ref=e448]:
+                    - checkbox [ref=e455] [cursor=pointer]
+                    - button "Social Interaction" [ref=e458] [cursor=pointer]:
+                      - generic [ref=e459]:
+                        - button [ref=e461]:
+                          - img [ref=e462]:
+                            - img [ref=e463]
+                        - generic [ref=e465]: Social Interaction
+                    - button [ref=e468] [cursor=pointer]:
+                      - generic [ref=e470]:
+                        - img [ref=e472]
+                        - checkbox [checked] [ref=e474]
+                    - button [ref=e477] [cursor=pointer]
+                    - button [ref=e480] [cursor=pointer]
+                    - button "Ready" [ref=e483] [cursor=pointer]:
+                      - generic [ref=e486]: Ready
+                    - button [ref=e489] [cursor=pointer]
+                    - button [ref=e492] [cursor=pointer]
+                    - button [ref=e495] [cursor=pointer]
+                  - generic [ref=e501]:
+                    - checkbox [ref=e508] [cursor=pointer]
+                    - button "Track Expenses" [ref=e511] [cursor=pointer]:
+                      - generic [ref=e512]:
+                        - button [ref=e514]:
+                          - img [ref=e515]:
+                            - img [ref=e516]
+                        - generic [ref=e518]: Track Expenses
+                    - button [ref=e521] [cursor=pointer]:
+                      - generic [ref=e523]:
+                        - img [ref=e525]
+                        - checkbox [checked] [ref=e527]
+                    - button [ref=e530] [cursor=pointer]
+                    - button [ref=e533] [cursor=pointer]
+                    - button "Ready" [ref=e536] [cursor=pointer]:
+                      - generic [ref=e539]: Ready
+                    - button [ref=e542] [cursor=pointer]
+                    - button [ref=e545] [cursor=pointer]
+                    - button [ref=e548] [cursor=pointer]
+                  - generic [ref=e554]:
+                    - checkbox [ref=e561] [cursor=pointer]
+                    - button "Exercise" [ref=e564] [cursor=pointer]:
+                      - generic [ref=e565]:
+                        - button [ref=e567]:
+                          - img [ref=e568]:
+                            - img [ref=e569]
+                        - generic [ref=e571]: Exercise
+                    - button [ref=e574] [cursor=pointer]:
+                      - generic [ref=e576]:
+                        - img [ref=e578]
+                        - checkbox [checked] [ref=e580]
+                    - button [ref=e583] [cursor=pointer]
+                    - button [ref=e586] [cursor=pointer]
+                    - button "Ready" [ref=e589] [cursor=pointer]:
+                      - generic [ref=e592]: Ready
+                    - button [ref=e595] [cursor=pointer]
+                    - button [ref=e598] [cursor=pointer]
+                    - button [ref=e601] [cursor=pointer]
+                  - generic [ref=e607]:
+                    - checkbox [ref=e614] [cursor=pointer]
+                    - button "Read 30 Minutes" [ref=e617] [cursor=pointer]:
+                      - generic [ref=e618]:
+                        - button [ref=e620]:
+                          - img [ref=e621]:
+                            - img [ref=e622]
+                        - generic [ref=e624]: Read 30 Minutes
+                    - button [ref=e627] [cursor=pointer]:
+                      - generic [ref=e629]:
+                        - img [ref=e631]
+                        - checkbox [checked] [ref=e633]
+                    - button [ref=e636] [cursor=pointer]
+                    - button [ref=e639] [cursor=pointer]
+                    - button "Ready" [ref=e642] [cursor=pointer]:
+                      - generic [ref=e645]: Ready
+                    - button [ref=e648] [cursor=pointer]
+                    - button [ref=e651] [cursor=pointer]
+                    - button [ref=e654] [cursor=pointer]
+                - button "New page" [ref=e658] [cursor=pointer]:
+                  - generic [ref=e659]:
+                    - img [ref=e660]
+                    - text: New page
+        - region [ref=e662]
+    - status [ref=e663]
+    - alert [ref=e664]
+  - generic: Default view
+  - iframe [ref=e665]:
+    
+  - generic [ref=e666]:
+    - generic [ref=e667] [cursor=pointer]:
+      - generic "Move" [ref=e668]
+      - generic "Move" [ref=e670]
+    - generic [ref=e672] [cursor=pointer]:
+      - generic:
+        - generic:
+          - generic:
+            - generic "Record screen only"
+        - generic:
+          - generic:
+            - generic "Record camera only"
+        - generic:
+          - generic:
+            - generic "Turn off for this site"
+      - generic:
+        - generic [ref=e673]:
+          - img "Loom" [ref=e676]
+          - generic "Record a Loom" [ref=e679]
+        - generic [ref=e681]: Record a Loom
+  - generic:
+    - document

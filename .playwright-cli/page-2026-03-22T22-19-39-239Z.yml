@@ -1,0 +1,496 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Skip to content" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e9]:
+          - text: Skip to content
+          - img [ref=e10]
+      - navigation "Sidebar":
+        - generic [ref=e12]:
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - button "Mohamed's Notion Close sidebar" [ref=e21] [cursor=pointer]:
+                - generic [ref=e32]: Mohamed's Notion
+                - button "Close sidebar" [ref=e35]:
+                  - img [ref=e36]
+              - generic [ref=e40]:
+                - tablist "Sidebar navigation" [ref=e41]:
+                  - tab "Home" [selected] [ref=e44] [cursor=pointer]:
+                    - img [ref=e46]
+                    - generic [ref=e49]: Home
+                  - tab "Chat" [ref=e51] [cursor=pointer]:
+                    - img [ref=e53]
+                    - generic:
+                      - generic: Chat
+                  - tab "Meetings" [ref=e56] [cursor=pointer]:
+                    - img [ref=e58]
+                    - generic:
+                      - generic: Meetings
+                  - tab "Inbox" [ref=e62] [cursor=pointer]:
+                    - img [ref=e64]
+                    - generic:
+                      - generic: Inbox
+                - button "Search" [ref=e68] [cursor=pointer]:
+                  - img [ref=e69]
+            - tabpanel "Home" [ref=e72]:
+              - generic [ref=e76]:
+                - generic [ref=e77]:
+                  - generic [ref=e80] [cursor=pointer]:
+                    - button "Recents" [expanded] [ref=e81]:
+                      - generic [ref=e82]: Recents
+                      - img [ref=e83]
+                    - tree "Recents" [ref=e86]:
+                      - treeitem "Good Habit" [ref=e88]:
+                        - generic [ref=e89]:
+                          - img [ref=e95]
+                          - generic [ref=e98]: Good Habit
+                  - generic [ref=e101] [cursor=pointer]:
+                    - button "Favorites" [expanded] [ref=e102]:
+                      - generic [ref=e103]: Favorites
+                      - img [ref=e104]
+                    - tree "Favorites" [ref=e107]:
+                      - generic [ref=e109]:
+                        - treeitem "Habit Tracker" [ref=e111]:
+                          - generic [ref=e112]:
+                            - img "✔️ Change page icon" [ref=e120]
+                            - generic [ref=e122]: Habit Tracker
+                        - treeitem "My Daily Journal" [ref=e124]:
+                          - generic [ref=e125]:
+                            - img "Change page icon" [ref=e133]
+                            - generic [ref=e135]: My Daily Journal
+                  - generic [ref=e991] [cursor=pointer]:
+                    - button "Agents Beta" [expanded] [ref=e992]:
+                      - generic [ref=e993]:
+                        - text: Agents
+                        - link "Beta" [ref=e997]:
+                          - /url: https://www.notion.com/help/custom-agent
+                          - generic [ref=e998]: Beta
+                      - img [ref=e999]
+                    - list "Agents Beta" [ref=e1003]:
+                      - button "New agent" [ref=e1004]:
+                        - generic [ref=e1005]:
+                          - img [ref=e1007]
+                          - generic [ref=e1009]: New agent
+                  - generic [ref=e158] [cursor=pointer]:
+                    - button "Shared" [expanded] [ref=e159]:
+                      - generic [ref=e160]: Shared
+                      - img [ref=e161]
+                    - button "Start collaborating" [ref=e1010]:
+                      - generic [ref=e1011]:
+                        - img [ref=e1013]
+                        - generic [ref=e1015]: Start collaborating
+                  - generic [ref=e166] [cursor=pointer]:
+                    - button "Private" [expanded] [ref=e167]:
+                      - generic [ref=e168]: Private
+                      - img [ref=e169]
+                    - tree "Private" [ref=e172]:
+                      - generic [ref=e174]:
+                        - treeitem "Gamify" [ref=e176]:
+                          - generic [ref=e177]:
+                            - img "Change page icon" [ref=e183]:
+                              - img [ref=e184]
+                            - generic [ref=e188]: Gamify
+                        - treeitem "Journalling Hub" [ref=e190]:
+                          - generic [ref=e191]:
+                            - img "✍️ Change page icon" [ref=e199]
+                            - generic [ref=e201]: Journalling Hub
+                        - treeitem "Try AI Meeting Notes @June 9, 2025 2:31 PM" [ref=e203]:
+                          - generic [ref=e204]:
+                            - img "Change page icon" [ref=e210]:
+                              - img [ref=e211]
+                            - generic [ref=e215]: Try AI Meeting Notes @June 9, 2025 2:31 PM
+                        - treeitem "Journalling Hub" [ref=e217]:
+                          - generic [ref=e218]:
+                            - img "✍️ Change page icon" [ref=e226]
+                            - generic [ref=e228]: Journalling Hub
+                        - treeitem "LiFE RPG - Gamify your Success" [ref=e230]:
+                          - generic [ref=e231]:
+                            - img "Change page icon" [ref=e239]
+                            - generic [ref=e241]: LiFE RPG - Gamify your Success
+                        - treeitem "LiFE RPG - My Life Is Getting Better" [ref=e243]:
+                          - generic [ref=e244]:
+                            - img "Change page icon" [ref=e252]
+                            - generic [ref=e254]: LiFE RPG - My Life Is Getting Better
+                        - treeitem "LiFE RPG - Gamify your Success" [ref=e256]:
+                          - generic [ref=e257]:
+                            - img "Change page icon" [ref=e265]
+                            - generic [ref=e267]: LiFE RPG - Gamify your Success
+                        - treeitem "My Daily Journal" [ref=e269]:
+                          - generic [ref=e270]:
+                            - img "Change page icon" [ref=e278]
+                            - generic [ref=e280]: My Daily Journal
+                        - treeitem "Life OS Dashboard" [ref=e282]:
+                          - generic [ref=e283]:
+                            - img "Change page icon" [ref=e291]
+                            - generic [ref=e293]: Life OS Dashboard
+                        - treeitem "Notionistic" [ref=e295]:
+                          - generic [ref=e296]:
+                            - img "⭐ Change page icon" [ref=e304]
+                            - generic [ref=e306]: Notionistic
+                    - button "More" [ref=e308]:
+                      - generic [ref=e309]:
+                        - img [ref=e311]
+                        - generic [ref=e313]: More
+                  - generic [ref=e1017] [cursor=pointer]:
+                    - button "Notion apps" [expanded] [ref=e1018]:
+                      - generic [ref=e1019]: Notion apps
+                      - img [ref=e1020]
+                    - generic [ref=e1024]:
+                      - button "Notion Mail" [ref=e1028]:
+                        - generic [ref=e1029]:
+                          - img [ref=e1031]
+                          - generic [ref=e1033]: Notion Mail
+                      - button "Notion Calendar" [ref=e1038]:
+                        - generic [ref=e1039]:
+                          - img [ref=e1041]
+                          - generic [ref=e1043]: Notion Calendar
+                      - button "Notion Desktop" [ref=e1047]:
+                        - generic [ref=e1048]:
+                          - img [ref=e1050]
+                          - generic [ref=e1052]: Notion Desktop
+                - generic [ref=e315]:
+                  - button "Library" [ref=e317] [cursor=pointer]:
+                    - generic [ref=e318]:
+                      - img [ref=e321]
+                      - generic [ref=e323]: Library
+                  - link "My tasks" [ref=e325] [cursor=pointer]:
+                    - /url: /e8c37f4634964795bc38a77646403e31
+                    - generic [ref=e326]:
+                      - img [ref=e328]
+                      - generic [ref=e331]: My tasks
+                  - button "Marketplace" [ref=e333] [cursor=pointer]:
+                    - generic [ref=e334]:
+                      - img [ref=e336]
+                      - generic [ref=e338]: Marketplace
+                  - button "What’s new, help, contact, more…" [ref=e341] [cursor=pointer]:
+                    - generic [ref=e342]:
+                      - generic [ref=e344]:
+                        - img [ref=e345]
+                        - img "New"
+                      - generic [ref=e348]: Help
+                  - button "Trash" [ref=e352] [cursor=pointer]:
+                    - generic [ref=e353]:
+                      - img [ref=e355]
+                      - generic [ref=e358]: Trash
+            - generic [ref=e360]:
+              - button "New chat" [ref=e362] [cursor=pointer]:
+                - generic [ref=e363]:
+                  - img [ref=e364]
+                  - generic [ref=e367]:
+                    - text: New chat
+                    - generic [ref=e370]: Ctrl+O
+              - button "New page" [ref=e373] [cursor=pointer]:
+                - img [ref=e374]
+          - separator "Resize with left and right arrow keys" [ref=e379]
+      - generic [ref=e380]:
+        - banner [ref=e381]:
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - link "Gamify" [ref=e387] [cursor=pointer]:
+                - /url: /Gamify-32bdcd9e48f880fc8f38f3155f5c501e?pvs=18
+                - generic [ref=e389]: Gamify
+              - img [ref=e391]
+              - button "Good Habit" [ref=e393] [cursor=pointer]:
+                - generic [ref=e394]: Good Habit
+            - generic [ref=e1054]:
+              - button "Share" [ref=e1057] [cursor=pointer]:
+                - img [ref=e1058]
+                - text: Share
+                - img [ref=e1060]
+              - button "Favorite" [ref=e1063] [cursor=pointer]:
+                - img [ref=e1064]
+              - button "Actions" [ref=e1068] [cursor=pointer]:
+                - img [ref=e1069]
+        - main [ref=e395]:
+          - generic [ref=e397]:
+            - generic [ref=e399]:
+              - generic [ref=e401]:
+                - button "Add icon":
+                  - img
+                  - text: Add icon
+                - button "Add cover":
+                  - img
+                  - text: Add cover
+                - button "Add description":
+                  - img
+                  - text: Add description
+              - textbox [ref=e406]:
+                - /placeholder: Good Habit
+            - generic [ref=e407]:
+              - generic [ref=e410]:
+                - tablist [ref=e411]:
+                  - tab "Default view" [selected] [ref=e418] [cursor=pointer]:
+                    - img [ref=e419]
+                    - generic [ref=e421]: Default view
+                - button "Settings" [ref=e428] [cursor=pointer]:
+                  - img [ref=e429]
+              - generic [ref=e437]:
+                - generic [ref=e443]:
+                  - checkbox [ref=e1071] [cursor=pointer]
+                  - generic [ref=e451]:
+                    - button "Name" [ref=e456] [cursor=pointer]:
+                      - generic [ref=e457]:
+                        - img [ref=e463]
+                        - generic [ref=e465]: Name
+                    - button "Active" [ref=e471] [cursor=pointer]:
+                      - generic [ref=e472]:
+                        - img [ref=e478]
+                        - generic [ref=e480]: Active
+                    - button "Activity Entries" [ref=e486] [cursor=pointer]:
+                      - generic [ref=e487]:
+                        - img [ref=e493]
+                        - generic [ref=e495]: Activity Entries
+                    - button "Character" [ref=e501] [cursor=pointer]:
+                      - generic [ref=e502]:
+                        - img [ref=e508]
+                        - generic [ref=e510]: Character
+                    - button "Check-in Status" [ref=e516] [cursor=pointer]:
+                      - generic [ref=e517]:
+                        - img [ref=e523]
+                        - generic [ref=e525]: Check-in Status
+                    - button "Current Streak" [ref=e531] [cursor=pointer]:
+                      - generic [ref=e532]:
+                        - img [ref=e538]
+                        - generic [ref=e540]: Current Streak
+                    - button "Domain" [ref=e546] [cursor=pointer]:
+                      - generic [ref=e547]:
+                        - img [ref=e553]
+                        - generic [ref=e555]: Domain
+                    - button "EXP Earn" [ref=e561] [cursor=pointer]:
+                      - generic [ref=e562]:
+                        - img [ref=e568]
+                        - generic [ref=e570]: EXP Earn
+                    - button "Entries Count" [ref=e1072] [cursor=pointer]:
+                      - generic [ref=e1073]:
+                        - img [ref=e1079]
+                        - generic [ref=e1081]: Entries Count
+                    - button "Frequency" [ref=e595] [cursor=pointer]:
+                      - generic [ref=e596]:
+                        - img [ref=e602]
+                        - generic [ref=e604]: Frequency
+                    - button "Heat Map" [ref=e610] [cursor=pointer]:
+                      - generic [ref=e611]:
+                        - img [ref=e617]
+                        - generic [ref=e619]: Heat Map
+                    - button "Stat" [ref=e625] [cursor=pointer]:
+                      - generic [ref=e626]:
+                        - img [ref=e632]
+                        - generic [ref=e634]: Stat
+                    - button "Streak Tracker" [ref=e640] [cursor=pointer]:
+                      - generic [ref=e641]:
+                        - img [ref=e647]
+                        - generic [ref=e649]: Streak Tracker
+                    - button "XP Reward" [ref=e655] [cursor=pointer]:
+                      - generic [ref=e656]:
+                        - img [ref=e662]
+                        - generic [ref=e664]: XP Reward
+                  - generic [ref=e666]:
+                    - button [ref=e671] [cursor=pointer]:
+                      - img [ref=e672]
+                    - button [ref=e675] [cursor=pointer]:
+                      - img [ref=e677]
+                - generic [ref=e1085]:
+                  - generic [ref=e1089]:
+                    - checkbox [ref=e1096] [cursor=pointer]
+                    - button [ref=e1295] [cursor=pointer]
+                    - button "VIT" [ref=e1298] [cursor=pointer]:
+                      - generic [ref=e1304]: VIT
+                    - button [ref=e1307] [cursor=pointer]
+                    - button "5" [ref=e1310] [cursor=pointer]:
+                      - generic [ref=e1311]: "5"
+                  - generic [ref=e1127]:
+                    - checkbox [ref=e1134] [cursor=pointer]
+                    - button [ref=e1315] [cursor=pointer]
+                    - button "CHA" [ref=e1318] [cursor=pointer]:
+                      - generic [ref=e1324]: CHA
+                    - button [ref=e1327] [cursor=pointer]
+                    - button "5" [ref=e1330] [cursor=pointer]:
+                      - generic [ref=e1331]: "5"
+                  - generic [ref=e1165]:
+                    - checkbox [ref=e1172] [cursor=pointer]
+                    - button [ref=e1335] [cursor=pointer]
+                    - button "WIS" [ref=e1338] [cursor=pointer]:
+                      - generic [ref=e1344]: WIS
+                    - button [ref=e1347] [cursor=pointer]
+                    - button "5" [ref=e1350] [cursor=pointer]:
+                      - generic [ref=e1351]: "5"
+                  - generic [ref=e1203]:
+                    - checkbox [ref=e1210] [cursor=pointer]
+                    - button [ref=e1355] [cursor=pointer]
+                    - button "STR" [ref=e1358] [cursor=pointer]:
+                      - generic [ref=e1364]: STR
+                    - button [ref=e1367] [cursor=pointer]
+                    - button "5" [ref=e1370] [cursor=pointer]:
+                      - generic [ref=e1371]: "5"
+                  - generic [ref=e1241]:
+                    - checkbox [ref=e1248] [cursor=pointer]
+                    - button [ref=e1375] [cursor=pointer]
+                    - button "INT" [ref=e1378] [cursor=pointer]:
+                      - generic [ref=e1384]: INT
+                    - button [ref=e1387] [cursor=pointer]
+                    - button "5" [ref=e1390] [cursor=pointer]:
+                      - generic [ref=e1391]: "5"
+                - button "New page" [ref=e1277] [cursor=pointer]:
+                  - generic [ref=e1278]:
+                    - img [ref=e1279]
+                    - text: New page
+        - region [ref=e971]
+      - button "ai" [ref=e1285] [cursor=pointer]:
+        - img "Notion AI face" [ref=e1291]
+    - dialog [ref=e1395]:
+      - generic [ref=e1396]:
+        - generic [ref=e1397]:
+          - generic [ref=e1398]:
+            - button "Back" [ref=e1399] [cursor=pointer]:
+              - img [ref=e1400]
+            - generic [ref=e1402]: Property visibility
+            - button "Close" [ref=e1403] [cursor=pointer]:
+              - img [ref=e1404]
+          - textbox "Search for a property…" [active] [ref=e1410]
+        - menu [ref=e1414]:
+          - generic [ref=e1415]:
+            - generic [ref=e1416]:
+              - generic [ref=e1417]: Shown in table
+              - button "Hide all" [ref=e1419] [cursor=pointer]
+            - generic [ref=e1420]:
+              - menuitem "Drag to move, click to open menu Name Toggle property visibility" [disabled] [ref=e1422]:
+                - generic [ref=e1423]:
+                  - generic [ref=e1425]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1427]:
+                      - img [ref=e1428]
+                    - generic [ref=e1431]: Name
+                  - button "Toggle property visibility" [disabled] [ref=e1434]:
+                    - img [ref=e1435]
+              - menuitem "Drag to move, click to open menu Active Toggle property visibility" [disabled] [ref=e1439]:
+                - generic [ref=e1440]:
+                  - generic [ref=e1442]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1444]:
+                      - img [ref=e1445]
+                    - generic [ref=e1448]: Active
+                  - button "Toggle property visibility" [disabled] [ref=e1451] [cursor=pointer]:
+                    - img [ref=e1452]
+              - menuitem "Drag to move, click to open menu Activity Entries Toggle property visibility" [disabled] [ref=e1456]:
+                - generic [ref=e1457]:
+                  - generic [ref=e1459]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1461]:
+                      - img [ref=e1462]
+                    - generic [ref=e1465]: Activity Entries
+                  - button "Toggle property visibility" [disabled] [ref=e1468] [cursor=pointer]:
+                    - img [ref=e1469]
+              - menuitem "Drag to move, click to open menu Character Toggle property visibility" [disabled] [ref=e1473]:
+                - generic [ref=e1474]:
+                  - generic [ref=e1476]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1478]:
+                      - img [ref=e1479]
+                    - generic [ref=e1482]: Character
+                  - button "Toggle property visibility" [disabled] [ref=e1485] [cursor=pointer]:
+                    - img [ref=e1486]
+              - menuitem "Drag to move, click to open menu Check-in Status Toggle property visibility" [disabled] [ref=e1490]:
+                - generic [ref=e1491]:
+                  - generic [ref=e1493]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1495]:
+                      - img [ref=e1496]
+                    - generic [ref=e1499]: Check-in Status
+                  - button "Toggle property visibility" [disabled] [ref=e1502] [cursor=pointer]:
+                    - img [ref=e1503]
+              - menuitem "Drag to move, click to open menu Current Streak Toggle property visibility" [disabled] [ref=e1507]:
+                - generic [ref=e1508]:
+                  - generic [ref=e1510]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1512]:
+                      - img [ref=e1513]
+                    - generic [ref=e1516]: Current Streak
+                  - button "Toggle property visibility" [disabled] [ref=e1519] [cursor=pointer]:
+                    - img [ref=e1520]
+              - menuitem "Drag to move, click to open menu Domain Toggle property visibility" [disabled] [ref=e1524]:
+                - generic [ref=e1525]:
+                  - generic [ref=e1527]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1529]:
+                      - img [ref=e1530]
+                    - generic [ref=e1533]: Domain
+                  - button "Toggle property visibility" [disabled] [ref=e1536] [cursor=pointer]:
+                    - img [ref=e1537]
+              - menuitem "Drag to move, click to open menu EXP Earn Toggle property visibility" [disabled] [ref=e1541]:
+                - generic [ref=e1542]:
+                  - generic [ref=e1544]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1546]:
+                      - img [ref=e1547]
+                    - generic [ref=e1550]: EXP Earn
+                  - button "Toggle property visibility" [disabled] [ref=e1553] [cursor=pointer]:
+                    - img [ref=e1554]
+              - menuitem "Drag to move, click to open menu Entries Count Toggle property visibility" [disabled] [ref=e1558]:
+                - generic [ref=e1559]:
+                  - generic [ref=e1561]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1563]:
+                      - img [ref=e1564]
+                    - generic [ref=e1567]: Entries Count
+                  - button "Toggle property visibility" [disabled] [ref=e1570] [cursor=pointer]:
+                    - img [ref=e1571]
+              - menuitem "Drag to move, click to open menu Frequency Toggle property visibility" [disabled] [ref=e1575]:
+                - generic [ref=e1576]:
+                  - generic [ref=e1578]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1580]:
+                      - img [ref=e1581]
+                    - generic [ref=e1584]: Frequency
+                  - button "Toggle property visibility" [disabled] [ref=e1587] [cursor=pointer]:
+                    - img [ref=e1588]
+              - menuitem "Drag to move, click to open menu Heat Map Toggle property visibility" [disabled] [ref=e1592]:
+                - generic [ref=e1593]:
+                  - generic [ref=e1595]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1597]:
+                      - img [ref=e1598]
+                    - generic [ref=e1601]: Heat Map
+                  - button "Toggle property visibility" [disabled] [ref=e1604] [cursor=pointer]:
+                    - img [ref=e1605]
+              - menuitem "Drag to move, click to open menu Stat Toggle property visibility" [disabled] [ref=e1609]:
+                - generic [ref=e1610]:
+                  - generic [ref=e1612]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1614]:
+                      - img [ref=e1615]
+                    - generic [ref=e1618]: Stat
+                  - button "Toggle property visibility" [disabled] [ref=e1621] [cursor=pointer]:
+                    - img [ref=e1622]
+              - menuitem "Drag to move, click to open menu Streak Tracker Toggle property visibility" [disabled] [ref=e1626]:
+                - generic [ref=e1627]:
+                  - generic [ref=e1629]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1631]:
+                      - img [ref=e1632]
+                    - generic [ref=e1635]: Streak Tracker
+                  - button "Toggle property visibility" [disabled] [ref=e1638] [cursor=pointer]:
+                    - img [ref=e1639]
+              - menuitem "Drag to move, click to open menu XP Reward Toggle property visibility" [disabled] [ref=e1643]:
+                - generic [ref=e1644]:
+                  - generic [ref=e1646]:
+                    - button "Drag to move, click to open menu" [disabled] [ref=e1648]:
+                      - img [ref=e1649]
+                    - generic [ref=e1652]: XP Reward
+                  - button "Toggle property visibility" [disabled] [ref=e1655] [cursor=pointer]:
+                    - img [ref=e1656]
+        - contentinfo
+    - status [ref=e972]
+    - alert [ref=e973]
+  - iframe [ref=e974]:
+    
+  - generic: Default view
+  - generic [ref=e975]:
+    - generic [ref=e976] [cursor=pointer]:
+      - generic "Move" [ref=e977]
+      - generic "Move" [ref=e979]
+    - generic [ref=e981] [cursor=pointer]:
+      - generic:
+        - generic:
+          - generic:
+            - generic "Record screen only"
+        - generic:
+          - generic:
+            - generic "Record camera only"
+        - generic:
+          - generic:
+            - generic "Turn off for this site"
+      - generic:
+        - generic [ref=e982]:
+          - img "Loom" [ref=e985]
+          - generic "Record a Loom" [ref=e988]
+        - generic [ref=e990]: Record a Loom
+  - generic:
+    - document

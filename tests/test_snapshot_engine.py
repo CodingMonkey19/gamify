@@ -19,11 +19,12 @@ def _make_character_page(
             "WIS XP": {"number": wis_xp},
             "VIT XP": {"number": vit_xp},
             "CHA XP": {"number": cha_xp},
-            "Level": {"number": level},
+            "Total XP": {"number": str_xp + int_xp + wis_xp + vit_xp + cha_xp},
+            "Player Level": {"number": level},
             "Gold": {"number": gold},
-            "Coins": {"number": coins},
-            "HP": {"number": hp},
-            "Rank": {"select": {"name": rank}},
+            "Current Coins": {"number": coins},
+            "Current HP": {"number": hp},
+            "Current Rank": {"select": {"name": rank}},
         }
     }
 
@@ -76,7 +77,7 @@ class TestSnapshotCreation:
         create_call = mock_notion.pages.create.call_args
         create_props = create_call.kwargs.get("properties", {})
 
-        assert create_props["Date"] == {"date": {"start": "2026-03-23"}}
+        assert create_props["Snapshot Date"] == {"date": {"start": "2026-03-23"}}
         assert create_props["Character"] == {"relation": [{"id": "char-001"}]}
         assert create_props["STR XP"] == {"number": 200}
         assert create_props["INT XP"] == {"number": 150}

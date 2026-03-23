@@ -118,11 +118,11 @@ def compute_deltas(notion, character_id: str, run_date: datetime) -> dict:
             database_id=DAILY_SNAPSHOTS_DB_ID,
             filter={
                 "and": [
-                    {"property": "Date", "date": {"on_or_after": seven_days_ago}},
+                    {"property": "Snapshot Date", "date": {"on_or_after": seven_days_ago}},
                     {"property": "Character", "relation": {"contains": character_id}},
                 ]
             },
-            sorts=[{"property": "Date", "direction": "ascending"}],
+            sorts=[{"property": "Snapshot Date", "direction": "ascending"}],
         )
     except Exception as e:
         logger.error(f"Failed to query Daily Snapshots: {e}")
@@ -183,7 +183,7 @@ def _extract_number(snapshot: dict, field: str) -> int:
 def _extract_date(snapshot: dict) -> str | None:
     """Extract the Date property from a Notion snapshot page."""
     props = snapshot.get("properties", {})
-    date_prop = props.get("Date", {}).get("date")
+    date_prop = props.get("Snapshot Date", {}).get("date")
     if date_prop and isinstance(date_prop, dict):
         return date_prop.get("start")
     return None

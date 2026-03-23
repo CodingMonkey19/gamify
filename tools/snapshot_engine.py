@@ -56,7 +56,7 @@ def take_snapshot(character_id, run_date=None):
     existing = notion.databases.query(
         database_id=DAILY_SNAPSHOTS_DB_ID,
         filter={
-            "property": "Date",
+            "property": "Snapshot Date",
             "date": {"equals": run_date_str},
         },
     )
@@ -74,12 +74,13 @@ def take_snapshot(character_id, run_date=None):
     wis_xp = props.get("WIS XP", {}).get("number") or 0
     vit_xp = props.get("VIT XP", {}).get("number") or 0
     cha_xp = props.get("CHA XP", {}).get("number") or 0
-    level = props.get("Level", {}).get("number") or 0
+    total_xp = props.get("Total XP", {}).get("number") or 0
+    level = props.get("Player Level", {}).get("number") or 0
     gold = props.get("Gold", {}).get("number") or 0
-    coins = props.get("Coins", {}).get("number") or 0
-    hp = props.get("HP", {}).get("number") or 0
+    coins = props.get("Current Coins", {}).get("number") or 0
+    hp = props.get("Current HP", {}).get("number") or 0
 
-    rank_select = props.get("Rank", {}).get("select")
+    rank_select = props.get("Current Rank", {}).get("select")
     rank = rank_select["name"] if rank_select else "Peasant"
 
     logger.info(
@@ -89,13 +90,13 @@ def take_snapshot(character_id, run_date=None):
     )
 
     # --- Count active streaks ---
+    # Streak Tracker has no "Active" checkbox or "Character" relation.
+    # Count rows where Current Streak > 0 (single-player system).
     streak_response = notion.databases.query(
         database_id=STREAK_TRACKER_DB_ID,
         filter={
-            "and": [
-                {"property": "Active", "checkbox": {"equals": True}},
-                {"property": "Character", "relation": {"contains": character_id}},
-            ]
+            "property": "Current Streak",
+            "number": {"greater_than": 0},
         },
     )
 
@@ -104,13 +105,15 @@ def take_snapshot(character_id, run_date=None):
 
     # --- Create snapshot page ---
     snapshot_properties = {
-        "Date": {"date": {"start": run_date_str}},
+        "Name": {"title": [{"text": {"content": f"Snapshot {run_date_str}"}}]},
+        "Snapshot Date": {"date": {"start": run_date_str}},
         "Character": {"relation": [{"id": character_id}]},
         "STR XP": {"number": str_xp},
         "INT XP": {"number": int_xp},
         "WIS XP": {"number": wis_xp},
         "VIT XP": {"number": vit_xp},
         "CHA XP": {"number": cha_xp},
+        "Total XP": {"number": total_xp},
         "Level": {"number": level},
         "Gold": {"number": gold},
         "Coins": {"number": coins},

@@ -85,6 +85,9 @@ def get_target_month(run_date: datetime) -> str:
 def calculate_surplus(notion, target_month: str) -> dict:
     """Query Expense Log for the target month, compute income and expenses.
 
+    Income comes from MONTHLY_INCOME config (Settings DB).
+    Expenses are summed from Expense Log entries for the month.
+
     Args:
         notion: Notion client.
         target_month: YYYY-MM format.
@@ -92,14 +95,19 @@ def calculate_surplus(notion, target_month: str) -> dict:
     Returns:
         {"income": float, "expenses": float, "surplus": float}
     """
+    from .config import MONTHLY_INCOME
+
     # Build date range for the target month
     year, month = map(int, target_month.split("-"))
     start_date = f"{target_month}-01"
-    # End date: first day of next month
     if month == 12:
         end_date = f"{year + 1}-01-01"
     else:
         end_date = f"{year}-{month + 1:02d}-01"
+
+    # Income from config/Settings DB
+    cfg = get_config()
+    income = float(cfg.get("MONTHLY_INCOME", MONTHLY_INCOME) or 0)
 
     try:
         response = notion.databases.query(
@@ -113,25 +121,13 @@ def calculate_surplus(notion, target_month: str) -> dict:
         )
     except Exception as e:
         logger.error(f"Failed to query Expense Log for {target_month}: {e}")
-        return {"income": 0.0, "expenses": 0.0, "surplus": 0.0}
+        return {"income": income, "expenses": 0.0, "surplus": income}
 
-    income = 0.0
     expenses = 0.0
-
     for page in response.get("results", []):
         props = page.get("properties", {})
-
-        # Get amount
         amount = props.get("Amount", {}).get("number", 0) or 0
-
-        # Get type (Income or Expense)
-        type_select = props.get("Type", {}).get("select")
-        entry_type = type_select["name"] if type_select else None
-
-        if entry_type == "Income":
-            income += amount
-        elif entry_type == "Expense":
-            expenses += amount
+        expenses += abs(amount)
 
     surplus = income - expenses
     logger.info(
@@ -155,7 +151,7 @@ def check_treasury_exists(notion, target_month: str, character_id: str) -> bool:
             database_id=TREASURY_DB_ID,
             filter={
                 "and": [
-                    {"property": "Month", "title": {"equals": target_month}},
+                    {"property": "Month", "rich_text": {"equals": target_month}},
                     {"property": "Character", "relation": {"contains": character_id}},
                 ]
             },
@@ -235,8 +231,11 @@ def create_treasury_row(notion, target_month: str, character_id: str,
     Returns True on success, False on failure.
     """
     properties = {
+        "Name": {
+            "title": [{"text": {"content": f"Treasury {target_month}"}}]
+        },
         "Month": {
-            "title": [{"text": {"content": target_month}}]
+            "rich_text": [{"text": {"content": target_month}}]
         },
         "Character": {
             "relation": [{"id": character_id}]
@@ -244,7 +243,7 @@ def create_treasury_row(notion, target_month: str, character_id: str,
         "Income": {
             "number": financials["income"]
         },
-        "Expenses": {
+        "Total Expenses": {
             "number": financials["expenses"]
         },
         "Surplus": {

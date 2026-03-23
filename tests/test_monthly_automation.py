@@ -9,13 +9,12 @@ from datetime import datetime, timezone
 # Helpers — build mock Notion Expense Log pages
 # ---------------------------------------------------------------------------
 
-def _make_expense_page(date_str: str, amount: float, entry_type: str) -> dict:
+def _make_expense_page(date_str: str, amount: float) -> dict:
     """Build a mock Notion page representing an Expense Log entry."""
     return {
         "properties": {
             "Date": {"date": {"start": date_str}},
             "Amount": {"number": amount},
-            "Type": {"select": {"name": entry_type}},
         }
     }
 
@@ -77,37 +76,40 @@ class TestCalculateSurplus:
     """Test surplus calculation from Expense Log."""
 
     def test_income_minus_expenses(self):
-        """Surplus = total income - total expenses."""
+        """Surplus = MONTHLY_INCOME from config - sum of Expense Log amounts."""
         mock_notion = MagicMock()
         mock_notion.databases.query.return_value = {
             "results": [
-                _make_expense_page("2026-02-01", 3500.0, "Income"),
-                _make_expense_page("2026-02-05", 1200.0, "Expense"),
-                _make_expense_page("2026-02-15", 500.0, "Income"),
-                _make_expense_page("2026-02-20", 1600.0, "Expense"),
+                _make_expense_page("2026-02-05", 1200.0),
+                _make_expense_page("2026-02-20", 1600.0),
             ]
         }
 
         from tools.monthly_automation import calculate_surplus
 
-        result = calculate_surplus(mock_notion, "2026-02")
+        # Mock config to return MONTHLY_INCOME = 4000
+        with patch("tools.monthly_automation.get_config", return_value={"MONTHLY_INCOME": 4000}), \
+             patch("tools.config.MONTHLY_INCOME", 4000):
+            result = calculate_surplus(mock_notion, "2026-02")
 
-        assert result["income"] == 4000.0    # 3500 + 500
+        assert result["income"] == 4000.0    # from config
         assert result["expenses"] == 2800.0  # 1200 + 1600
         assert result["surplus"] == 1200.0   # 4000 - 2800
 
-    def test_no_entries_returns_zeros(self):
-        """No expense entries — all zeros."""
+    def test_no_entries_returns_income_only(self):
+        """No expense entries — expenses=0, surplus=income."""
         mock_notion = MagicMock()
         mock_notion.databases.query.return_value = {"results": []}
 
         from tools.monthly_automation import calculate_surplus
 
-        result = calculate_surplus(mock_notion, "2026-02")
+        with patch("tools.monthly_automation.get_config", return_value={"MONTHLY_INCOME": 3000}), \
+             patch("tools.config.MONTHLY_INCOME", 3000):
+            result = calculate_surplus(mock_notion, "2026-02")
 
-        assert result["income"] == 0.0
+        assert result["income"] == 3000.0
         assert result["expenses"] == 0.0
-        assert result["surplus"] == 0.0
+        assert result["surplus"] == 3000.0
 
 
 # ---------------------------------------------------------------------------
@@ -155,10 +157,11 @@ class TestTreasuryIdempotency:
         create_call = mock_notion.pages.create.call_args
         props = create_call.kwargs["properties"]
 
-        assert props["Month"]["title"][0]["text"]["content"] == "2026-02"
+        assert props["Name"]["title"][0]["text"]["content"] == "Treasury 2026-02"
+        assert props["Month"]["rich_text"][0]["text"]["content"] == "2026-02"
         assert props["Character"]["relation"][0]["id"] == "char-001"
         assert props["Income"]["number"] == 3500.0
-        assert props["Expenses"]["number"] == 2800.0
+        assert props["Total Expenses"]["number"] == 2800.0
         assert props["Surplus"]["number"] == 700.0
         assert props["Gold Earned"]["number"] == 70
         assert props["WIS XP"]["number"] == 350

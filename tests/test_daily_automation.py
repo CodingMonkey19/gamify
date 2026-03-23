@@ -66,10 +66,10 @@ class TestPipelineExecutionOrder:
             # load_settings is handled internally via get_config
             "process_daily_habits",      # good habits
             "process_bad_habits",        # bad habits
-            "apply_decay",               # streak decay
-            "aggregate_xp",              # fitness
-            "aggregate_xp",              # nutrition
-            "aggregate_xp",              # financial
+            "check_streaks",               # streak decay
+            "process_daily_workouts",    # fitness
+            "process_daily_nutrition",   # nutrition
+            "process_monthly_finances",  # financial
             "update_character_stats",    # xp update
             "check_death",               # hp check
             "check_rank_up",             # rank check
@@ -129,7 +129,7 @@ class TestFaultTolerance:
         call_order = []
 
         def fake_try_import(module_path, func_name):
-            if func_name == "apply_decay":
+            if func_name == "check_streaks":
                 # streak_engine raises an error
                 def failing_fn(*args, **kwargs):
                     call_order.append(func_name)
@@ -153,7 +153,7 @@ class TestFaultTolerance:
         context = run_pipeline(CHARACTER_ID)
 
         # streak_decay failed but subsequent steps still ran
-        assert "apply_decay" in call_order
+        assert "check_streaks" in call_order
         assert "update_character_stats" in call_order
         assert "check_death" in call_order
         assert "take_snapshot" in call_order
@@ -172,7 +172,7 @@ class TestFaultTolerance:
 
         mock_get_config.return_value = {}
 
-        failing_steps = {"apply_decay", "aggregate_xp", "check_death"}
+        failing_steps = {"check_streaks", "process_daily_workouts", "check_death"}
         call_order = []
 
         def fake_try_import(module_path, func_name):
@@ -317,7 +317,7 @@ class TestMissingEngineSkipped:
 
         def fake_try_import(module_path, func_name):
             # Simulate missing engines for habit_engine and fitness_engine
-            if func_name in ("process_daily_habits", "process_bad_habits", "aggregate_xp"):
+            if func_name in ("process_daily_habits", "process_bad_habits", "process_daily_workouts"):
                 return None  # Module not available
 
             fn = MagicMock(return_value={"status": "ok"})
@@ -358,7 +358,7 @@ class TestSummaryOutput:
         def fake_try_import(module_path, func_name):
             if func_name in ("process_daily_habits",):
                 return None  # Skipped
-            if func_name == "apply_decay":
+            if func_name == "check_streaks":
                 def failing(*args, **kwargs):
                     raise RuntimeError("fail")
                 return failing

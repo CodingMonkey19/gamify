@@ -96,6 +96,12 @@ CLASS_STAT_MAP = {
     "Ranger": "WIS",
 }
 
+# Class Bonus Mapping (same as CLASS_STAT_MAP — used by xp_engine for 10% bonus)
+CLASS_BONUSES = CLASS_STAT_MAP
+
+# Financial
+MONTHLY_INCOME = 0  # Default; override via Settings DB
+
 # Ranks
 RANK_THRESHOLDS = {
     0: "Peasant", 1000: "Squire", 5000: "Knight", 15000: "Champion",
